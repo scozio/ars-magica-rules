@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "title": "Story Flaws",
+    "description": "Flaws that create ongoing story complications and hooks",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "flaws": [
+    {
+      "name": "Blackmail",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "Someone has compromising information about you and uses it for leverage.",
+      "effects": "You must periodically perform services or pay money to keep your secret safe. Refusal brings exposure.",
+      "requirements": "Must define what secret and who knows",
+      "story_hooks": ["Blackmailer demands dangerous favors", "Evidence surfaces elsewhere", "Blackmailer becomes victim"],
+      "notes": "Creates ongoing tension and moral dilemmas"
+    },
+    {
+      "name": "Blood Vendetta",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "You are involved in a generational blood feud between families or groups.",
+      "effects": "Members of the opposing family will attack you on sight. Your family expects you to continue the feud.",
+      "requirements": "Must define the opposing family and cause",
+      "story_hooks": ["Attempts at reconciliation", "Escalating violence", "Innocent family members involved"],
+      "notes": "Provides built-in antagonists and moral complexity"
+    },
+    {
+      "name": "Covenant Upbringing",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You were raised in a covenant and know little of the outside world.",
+      "effects": "Subtract 3 from social rolls with mundanes. You may misunderstand normal social conventions.",
+      "requirements": "Must define which covenant",
+      "story_hooks": ["Culture shock in mundane world", "Covenant politics follow you", "Sheltered worldview challenged"],
+      "notes": "Fish-out-of-water character concept"
+    },
+    {
+      "name": "Curse of Venus",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "You are supernaturally attractive but cursed in matters of love.",
+      "effects": "Add +6 to appearance-based social rolls, but romantic relationships always end in tragedy.",
+      "requirements": "None",
+      "story_hooks": ["Tragic love affairs", "Jealous rivals", "Attempts to break the curse"],
+      "notes": "Powerful social ability with built-in tragedy"
+    },
+    {
+      "name": "Dependent",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "Someone relies on you completely for survival and well-being.",
+      "effects": "You must provide for and protect a dependent person. Their needs often conflict with your goals.",
+      "requirements": "Must define who and why they depend on you",
+      "story_hooks": ["Dependent gets into trouble", "Others threaten dependent", "Dependent's needs create conflicts"],
+      "notes": "Creates ongoing responsibilities and vulnerability"
+    },
+    {
+      "name": "Diabolic Heritage",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "You are descended from demons and this heritage occasionally manifests.",
+      "effects": "You sometimes display supernatural powers or demonic features. Church authorities will destroy you if discovered.",
+      "requirements": "None",
+      "story_hooks": ["Heritage manifests at bad times", "Demonic relatives appear", "Church investigation"],
+      "notes": "Dangerous secret with supernatural implications"
+    },
+    {
+      "name": "Driven",
+      "type": "Minor/Major Story",
+      "cost": "1 (Minor) or 3 (Major)",
+      "description": "You are compelled to pursue a specific goal above all else.",
+      "effects": "You must actively pursue your driving goal. Minor: reasonable pursuit. Major: obsessive, ignoring other concerns.",
+      "requirements": "Must define the driving goal",
+      "story_hooks": ["Goal conflicts with group needs", "Obstacles to achieving goal", "Goal achieved, now what?"],
+      "notes": "Provides clear character motivation and story direction"
+    },
+    {
+      "name": "Faerie Friend",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You have a close relationship with a powerful faerie who periodically involves you in faerie affairs.",
+      "effects": "Your faerie friend provides occasional help but also draws you into faerie politics and obligations.",
+      "requirements": "Must define the faerie and relationship",
+      "story_hooks": ["Faerie court politics", "Rival faeries", "Balancing human and faerie loyalties"],
+      "notes": "Mixed blessing providing both aid and complications"
+    },
+    {
+      "name": "Geas",
+      "type": "Minor/Major Story",
+      "cost": "1 (Minor) or 3 (Major)",
+      "description": "You are bound by a supernatural compulsion to follow certain rules or behaviors.",
+      "effects": "You must follow the geas or suffer supernatural consequences. Minor: inconvenient. Major: life-threatening if broken.",
+      "requirements": "Must define the geas and its origin",
+      "story_hooks": ["Geas conflicts with needs", "Attempting to break geas", "Others exploit your geas"],
+      "notes": "Creates roleplaying challenges and story complications"
+    },
+    {
+      "name": "Guardian Angel",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "A divine being watches over you but expects you to serve righteousness.",
+      "effects": "You receive supernatural protection in dire need, but must act according to divine will or lose the protection.",
+      "requirements": "Must have appropriate faith background",
+      "story_hooks": ["Divine missions", "Moral dilemmas", "Testing of faith"],
+      "notes": "Divine protection with moral obligations"
+    },
+    {
+      "name": "Heir",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You are heir to significant property or position, but others contest your claim.",
+      "effects": "You have potential access to wealth and power, but face rivals and political complications.",
+      "requirements": "Must define what you inherit and who opposes",
+      "story_hooks": ["Political machinations", "Rival claimants", "Proving worthiness"],
+      "notes": "Provides potential rewards and built-in conflict"
+    },
+    {
+      "name": "Hunted",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "A powerful organization or individual actively pursues you with intent to capture or kill.",
+      "effects": "You must constantly watch for pursuit. Hunters have significant resources and determination.",
+      "requirements": "Must define who hunts you and why",
+      "story_hooks": ["Close calls with hunters", "Allies caught in crossfire", "Discovering hunter motives"],
+      "notes": "Creates ongoing tension and paranoia"
+    },
+    {
+      "name": "Lost Love",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "Someone you deeply loved has been lost, and you seek to find or rescue them.",
+      "effects": "You will prioritize any opportunity to find your lost love, even at significant risk or cost.",
+      "requirements": "Must define who was lost and how",
+      "story_hooks": ["Clues to their whereabouts", "False leads and disappointments", "Moral costs of the search"],
+      "notes": "Provides strong character motivation"
+    },
+    {
+      "name": "Mentor",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "A powerful patron takes interest in your development but has their own agenda.",
+      "effects": "Your mentor provides advice and occasional aid but expects loyalty and service in return.",
+      "requirements": "Must define the mentor and their agenda",
+      "story_hooks": ["Mentor's requests conflict with goals", "Mentor's enemies target you", "Outgrowing mentor's influence"],
+      "notes": "Provides guidance but creates obligations"
+    },
+    {
+      "name": "Monster",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "You transform into a dangerous creature under certain conditions.",
+      "effects": "You periodically become a monster beyond your control, threatening innocents and exposing your nature.",
+      "requirements": "Must define monster type and trigger",
+      "story_hooks": ["Controlling the transformation", "Damage done while transformed", "Others discovering the truth"],
+      "notes": "Classic monster story with moral implications"
+    },
+    {
+      "name": "Outsider",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You come from a very different culture and don't fit in with local society.",
+      "effects": "Subtract 3 from social rolls due to cultural misunderstandings. You may be subject to prejudice.",
+      "requirements": "Must define your culture of origin",
+      "story_hooks": ["Cultural conflicts", "Prejudice and misunderstanding", "News from homeland"],
+      "notes": "Provides roleplaying challenges and cultural exploration"
+    },
+    {
+      "name": "Plagued by Supernatural Entity",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "A supernatural being torments you for its own purposes.",
+      "effects": "The entity periodically interferes with your life, creating problems and dangers for you and those around you.",
+      "requirements": "Must define the entity and why it targets you",
+      "story_hooks": ["Escalating supernatural harassment", "Entity's true motives revealed", "Attempts to banish entity"],
+      "notes": "Creates ongoing supernatural threat"
+    },
+    {
+      "name": "Prophecy",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "A prophecy foretells your destiny, but it may be interpreted in multiple ways.",
+      "effects": "Others react to you based on the prophecy. Your actions may fulfill or subvert the prophetic destiny.",
+      "requirements": "Must define the prophecy",
+      "story_hooks": ["Prophecy interpretation debates", "Attempts to avoid destiny", "Prophecy fulfillment consequences"],
+      "notes": "Creates epic story framework"
+    },
+    {
+      "name": "Protégé",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You are responsible for training and protecting a promising young person.",
+      "effects": "Your protégé requires guidance and protection. Their successes reflect well on you, but their failures are your responsibility.",
+      "requirements": "Must define the protégé and their potential",
+      "story_hooks": ["Protégé in danger", "Protégé makes mistakes", "Protégé outgrows your guidance"],
+      "notes": "Creates mentorship responsibilities"
+    },
+    {
+      "name": "Refugee",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You have fled your homeland and cannot safely return.",
+      "effects": "You lack local connections and resources. Agents from your homeland may still pursue you.",
+      "requirements": "Must define what you fled from",
+      "story_hooks": ["News from homeland", "Pursuit by homeland agents", "Helping other refugees"],
+      "notes": "Provides backstory motivation and ongoing threat"
+    },
+    {
+      "name": "Romantic",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You fall in love easily and completely, often with inappropriate or unattainable people.",
+      "effects": "Make Self-Control rolls to avoid becoming infatuated. Your romantic entanglements create complications.",
+      "requirements": "None",
+      "story_hooks": ["Inappropriate romantic targets", "Love triangles", "Romantic rivals"],
+      "notes": "Creates relationship drama and complications"
+    },
+    {
+      "name": "Supernatural Nuisance",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "A supernatural creature or phenomenon regularly bothers you in minor ways.",
+      "effects": "You suffer periodic minor inconveniences from supernatural sources. Not dangerous but annoying and obvious.",
+      "requirements": "Must define the source of nuisance",
+      "story_hooks": ["Nuisance escalates", "Others affected by association", "Discovering source of harassment"],
+      "notes": "Provides supernatural flavor without major threat"
+    },
+    {
+      "name": "Tormenting Master",
+      "type": "Major Story",
+      "cost": 3,
+      "description": "Your former master or teacher was abusive and continues to influence your life.",
+      "effects": "Your former master may return to cause problems. You suffer psychological effects from the abuse.",
+      "requirements": "Must define the master and nature of torment",
+      "story_hooks": ["Master returns demanding service", "Overcoming psychological damage", "Confronting the past"],
+      "notes": "Provides dark backstory and character development opportunities"
+    },
+    {
+      "name": "Visions",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You experience prophetic visions or supernatural revelations.",
+      "effects": "You periodically receive visions of future events or hidden truths, but they are often cryptic or disturbing.",
+      "requirements": "None",
+      "story_hooks": ["Interpreting vision meanings", "Visions of disaster", "Others seeking your prophetic gift"],
+      "notes": "Provides plot hooks and supernatural insight"
+    },
+    {
+      "name": "Wanderlust",
+      "type": "Minor Story",
+      "cost": 1,
+      "description": "You are compelled to travel and cannot stay in one place for long.",
+      "effects": "Make Self-Control rolls to remain in one location for more than a season. You must keep moving.",
+      "requirements": "None",
+      "story_hooks": ["Forced to leave at bad times", "Discovering reasons for wanderlust", "Finding a place worth staying"],
+      "notes": "Creates mobility and commitment issues"
+    }
+  ]
+}

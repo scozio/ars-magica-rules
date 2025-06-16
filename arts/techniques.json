@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "title": "Hermetic Arts - Techniques",
+    "description": "The five Hermetic Techniques that define how magic is performed",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "techniques": [
+    {
+      "name": "Creo",
+      "pronunciation": "KRAY-oh",
+      "translation": "I Create",
+      "description": "The Technique of creation, healing, and making things whole. Creo magic brings new things into existence, restores damaged or diseased things to health, and makes incomplete things complete.",
+      "core_concept": "Creation and restoration",
+      "primary_uses": [
+        "Creating new objects, creatures, or phenomena",
+        "Healing wounds and diseases", 
+        "Restoring damaged items to perfect condition",
+        "Making incomplete things whole",
+        "Bringing beneficial changes"
+      ],
+      "cannot_do": [
+        "Create permanent things without vis expenditure",
+        "Create things larger than the caster can affect",
+        "Heal old age or natural death",
+        "Create complex mechanical devices without understanding"
+      ],
+      "spell_examples": [
+        "Create fire from nothing",
+        "Heal grievous wounds",
+        "Restore a broken sword",
+        "Create food and water",
+        "Generate light"
+      ],
+      "form_combinations": {
+        "Animal": "Create or heal animals, restore animal products",
+        "Aquam": "Create water, purify liquids, control water flow",
+        "Auram": "Create air, control weather, generate winds",
+        "Corpus": "Heal human bodies, restore physical perfection",
+        "Herbam": "Create plants, heal vegetation, restore wood",
+        "Ignem": "Create fire, generate heat, produce light",
+        "Imaginem": "Create illusions, generate sounds and images",
+        "Mentem": "Restore sanity, enhance mental faculties",
+        "Terram": "Create earth and stone, restore metal items", 
+        "Vim": "Create raw magic, restore magical items"
+      },
+      "difficulty_modifiers": {
+        "creating_base_materials": 0,
+        "creating_complex_items": "+5 to +15",
+        "creating_living_things": "+10 to +20",
+        "creating_intelligent_beings": "Generally impossible"
+      },
+      "symbolic_associations": [
+        "The sun rising",
+        "Seeds sprouting",
+        "Wounds healing",
+        "Phoenix rising from ashes",
+        "Creation myths"
+      ]
+    },
+    {
+      "name": "Intellego",
+      "pronunciation": "in-TEL-eh-go",
+      "translation": "I Perceive",
+      "description": "The Technique of perception and knowledge. Intellego magic reveals information about things, allowing the caster to learn secrets, detect hidden properties, and understand the true nature of phenomena.",
+      "core_concept": "Perception and knowledge gathering",
+      "primary_uses": [
+        "Detecting hidden or invisible things",
+        "Learning the properties of objects",
+        "Sensing magical auras and effects",
+        "Gathering information from a distance",
+        "Understanding the true nature of things"
+      ],
+      "cannot_do": [
+        "Detect things that don't exist",
+        "Provide knowledge the caster cannot understand",
+        "See through absolute supernatural concealment",
+        "Provide perfect future knowledge"
+      ],
+      "spell_examples": [
+        "Detect magical auras",
+        "See through walls", 
+        "Read thoughts and emotions",
+        "Sense the health of living beings",
+        "Identify magical items"
+      ],
+      "form_combinations": {
+        "Animal": "Detect animals, understand animal behavior",
+        "Aquam": "Analyze water purity, detect liquid properties",
+        "Auram": "Predict weather, sense air quality",
+        "Corpus": "Diagnose health, detect life signs",
+        "Herbam": "Identify plants, sense plant health",
+        "Ignem": "Detect heat sources, analyze fire",
+        "Imaginem": "See through illusions, detect sounds",
+        "Mentem": "Read minds, detect thoughts and emotions",
+        "Terram": "Analyze earth and stone, detect minerals",
+        "Vim": "Detect magic, identify spells and effects"
+      },
+      "difficulty_modifiers": {
+        "basic_detection": 0,
+        "detailed_analysis": "+5",
+        "complex_information": "+10",
+        "highly_specific_details": "+15"
+      },
+      "symbolic_associations": [
+        "The all-seeing eye",
+        "Crystal balls and scrying pools",
+        "Wise owls and ravens",
+        "Lighthouse beacons",
+        "Ancient oracles"
+      ]
+    },
+    {
+      "name": "Muto",
+      "pronunciation": "MU-to", 
+      "translation": "I Transform",
+      "description": "The Technique of change and transformation. Muto magic alters the properties of things, changing their shape, substance, or fundamental nature while preserving their essential identity.",
+      "core_concept": "Transformation and alteration",
+      "primary_uses": [
+        "Changing the shape of objects",
+        "Altering physical properties",
+        "Transforming one substance into another", 
+        "Modifying characteristics and abilities",
+        "Creating temporary beneficial changes"
+      ],
+      "cannot_do": [
+        "Make permanent changes without vis",
+        "Transform things into completely different Forms",
+        "Change magical items without understanding",
+        "Transform things beyond recognition permanently"
+      ],
+      "spell_examples": [
+        "Transform into animal shapes",
+        "Change base metals into gold",
+        "Alter physical appearance",
+        "Modify weapon properties",
+        "Change liquid into gas"
+      ],
+      "form_combinations": {
+        "Animal": "Shapeshift into animals, alter animal forms",
+        "Aquam": "Change water properties, alter liquids",
+        "Auram": "Modify air composition, change weather",
+        "Corpus": "Alter human appearance and abilities",
+        "Herbam": "Transform plants, modify wood properties",
+        "Ignem": "Change fire color and heat, alter flames",
+        "Imaginem": "Modify appearances, change sounds",
+        "Mentem": "Alter personality traits temporarily",
+        "Terram": "Transform earth and stone, change metals",
+        "Vim": "Modify magical effects and spells"
+      },
+      "difficulty_modifiers": {
+        "minor_changes": 0,
+        "significant_alterations": "+5",
+        "major_transformations": "+10",
+        "complete_form_changes": "+15 to +20"
+      },
+      "symbolic_associations": [
+        "Metamorphosis of butterflies",
+        "Alchemical transmutation",
+        "Shape-changing myths", 
+        "Flowing water taking new forms",
+        "Seasonal changes"
+      ]
+    },
+    {
+      "name": "Perdo",
+      "pronunciation": "PAIR-do",
+      "translation": "I Destroy", 
+      "description": "The Technique of destruction, decay, and diminishment. Perdo magic breaks down things, causes aging and deterioration, and removes properties or existence itself.",
+      "core_concept": "Destruction and diminishment",
+      "primary_uses": [
+        "Destroying objects and structures",
+        "Causing rapid aging and decay",
+        "Removing magical effects",
+        "Diminishing abilities and properties",
+        "Creating wounds and damage"
+      ],
+      "cannot_do": [
+        "Destroy things larger than the spell can target",
+        "Cause instant death to healthy intelligent beings",
+        "Destroy truly indestructible items",
+        "Remove fundamental magical nature"
+      ],
+      "spell_examples": [
+        "Cause weapons to rust and break",
+        "Age living beings rapidly",
+        "Destroy magical barriers",
+        "Cause disease and weakness",
+        "Disintegrate stone walls"
+      ],
+      "form_combinations": {
+        "Animal": "Kill or age animals, destroy animal products",
+        "Aquam": "Evaporate water, destroy liquids",
+        "Auram": "Create vacuum, destroy air",
+        "Corpus": "Cause wounds, disease, and aging",
+        "Herbam": "Wither plants, destroy wood",
+        "Ignem": "Extinguish fires, remove heat",
+        "Imaginem": "Destroy illusions, remove sounds",
+        "Mentem": "Cause madness, destroy memories",
+        "Terram": "Crumble earth, rust metals",
+        "Vim": "Destroy magic, dispel effects"
+      },
+      "difficulty_modifiers": {
+        "minor_damage": 0,
+        "significant_destruction": "+5",
+        "major_devastation": "+10",
+        "complete_annihilation": "+15 to +25"
+      },
+      "symbolic_associations": [
+        "Entropy and decay",
+        "The grim reaper",
+        "Autumn leaves falling",
+        "Rust and corrosion",
+        "The passage of time"
+      ]
+    },
+    {
+      "name": "Rego",
+      "pronunciation": "RAY-go",
+      "translation": "I Control",
+      "description": "The Technique of control and command. Rego magic directs and commands things to act according to the caster's will, controlling movement, behavior, and natural processes.",
+      "core_concept": "Control and command",
+      "primary_uses": [
+        "Controlling the movement of objects",
+        "Commanding creatures and people",
+        "Directing natural forces",
+        "Manipulating magical effects",
+        "Forcing things to act against nature"
+      ],
+      "cannot_do": [
+        "Control things completely against their nature indefinitely",
+        "Command intelligent beings to act completely against their will",
+        "Control things beyond the spell's parameters",
+        "Force impossible actions"
+      ],
+      "spell_examples": [
+        "Levitate objects through the air",
+        "Command animals to obey",
+        "Control the direction of water flow",
+        "Force doors to open and close",
+        "Direct magical energies"
+      ],
+      "form_combinations": {
+        "Animal": "Command animals, control animal behavior",
+        "Aquam": "Control water flow and movement",
+        "Auram": "Direct winds, control air currents",
+        "Corpus": "Control human movement and actions",
+        "Herbam": "Command plants, control wood",
+        "Ignem": "Direct flames, control heat",
+        "Imaginem": "Control illusions and images",
+        "Mentem": "Command thoughts and emotions",
+        "Terram": "Move earth and stone, control minerals",
+        "Vim": "Control magical forces and effects"
+      },
+      "difficulty_modifiers": {
+        "simple_control": 0,
+        "complex_commands": "+5",
+        "unnatural_actions": "+10",
+        "completely_against_nature": "+15 to +20"
+      },
+      "symbolic_associations": [
+        "Puppet masters and strings",
+        "Royal scepters of command",
+        "Shepherds guiding flocks",
+        "Conductors directing orchestras",
+        "Rivers being channeled"
+      ]
+    }
+  ],
+  "general_notes": {
+    "combination_rules": "Techniques must be combined with Forms to create complete spells. The Technique determines how the magic is performed, while the Form determines what is affected.",
+    "advancement": "Techniques are advanced through study and practice. Higher scores allow for more powerful and complex magical effects.",
+    "limitations": "All Techniques have natural limitations based on the fundamental nature of magic and reality in Mythic Europe.",
+    "vis_usage": "Permanent magical effects typically require the expenditure of vis of the appropriate Form

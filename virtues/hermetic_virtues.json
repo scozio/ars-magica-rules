@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "title": "Hermetic Virtues",
+    "description": "Virtues specifically related to Hermetic magic and the Order of Hermes",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "virtues": [
+    {
+      "name": "Affinity with Art",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have a natural talent for one of the fifteen Hermetic Arts. Choose one Art when you take this Virtue.",
+      "effects": "You gain experience points in the chosen Art as if you were studying from a book with a Quality equal to 5 + the Art's current score whenever you study that Art from any source.",
+      "requirements": "Must choose a specific Art",
+      "incompatible_with": ["Deficiency in the same Art"],
+      "notes": "This is one of the most powerful Hermetic Virtues for character advancement"
+    },
+    {
+      "name": "Apt Student",
+      "type": "Minor Hermetic", 
+      "cost": 1,
+      "description": "You learn quickly from books and teachers in laboratory and academic settings.",
+      "effects": "Add +3 to rolls for studying from books and +3 to Lab Totals when learning spells from lab texts.",
+      "requirements": "None",
+      "incompatible_with": ["Poor Student"],
+      "notes": "Excellent for characters focused on magical research"
+    },
+    {
+      "name": "Book Learner",
+      "type": "Minor Hermetic",
+      "cost": 1, 
+      "description": "You are exceptionally good at learning from books.",
+      "effects": "Add +3 to Study Totals when learning from books. This does not apply to Lab Totals.",
+      "requirements": "None",
+      "incompatible_with": ["Poor Student"],
+      "notes": "Different from Apt Student - only affects book learning, not lab work"
+    },
+    {
+      "name": "Cautious Sorcerer",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You are careful and methodical in your magical practice.",
+      "effects": "Add +3 to Lab Totals only if you spend at least one season doing nothing but lab work that season.",
+      "requirements": "None", 
+      "incompatible_with": ["Reckless"],
+      "notes": "Rewards focused, dedicated laboratory work"
+    },
+    {
+      "name": "Cyclic Magic (positive)",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your magic is tied to natural cycles and is stronger at certain times.",
+      "effects": "Choose a cycle (time of day, season, lunar phase, etc.). Your magic is +3 to casting totals during the beneficial part of the cycle, -3 during the opposed part.",
+      "requirements": "Must choose a specific cycle",
+      "incompatible_with": ["Cyclic Magic (negative) with same cycle"],
+      "notes": "Net positive if you can time your magic appropriately"
+    },
+    {
+      "name": "Diedne Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You have learned the lost secrets of spontaneous magic from House Diedne.",
+      "effects": "Double the lowest applicable Art when calculating Spontaneous magic totals. This does not require expending Fatigue levels.",
+      "requirements": "Extremely rare - requires special story circumstances",
+      "incompatible_with": ["Most other spontaneous magic Virtues"],
+      "notes": "Forbidden knowledge that could result in being declared Marched"
+    },
+    {
+      "name": "Elementalist",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You specialize in magic of a single element, gaining bonuses but suffering penalties with opposing elements.",
+      "effects": "Choose Air/Ignem, Earth/Terram, Fire/Ignem, or Water/Aquam. +3 to all totals with chosen element, -3 with opposing element.",
+      "requirements": "Must choose a specific element",
+      "incompatible_with": ["Elementalist with different element"],
+      "notes": "Significant specialization that shapes entire magical career"
+    },
+    {
+      "name": "Enduring Magic",
+      "type": "Minor Hermetic", 
+      "cost": 1,
+      "description": "Your spells last longer than normal.",
+      "effects": "Add +2 magnitudes to the duration of all spells you cast for determining how long they last, but not for any other purpose.",
+      "requirements": "None",
+      "incompatible_with": ["Short-Lived Magic"],
+      "notes": "Very useful for utility and ongoing effect spells"
+    },
+    {
+      "name": "Fast Caster",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can cast spells more quickly than normal.",
+      "effects": "Add +3 to Initiative when casting spells. In addition, subtract 3 from the speed of ritual spells.",
+      "requirements": "None",
+      "incompatible_with": ["Slow Caster"],
+      "notes": "Excellent for combat magi and emergency situations"
+    },
+    {
+      "name": "Flexible Formulaic Magic",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can modify your formulaic spells slightly when casting them.",
+      "effects": "You may change one parameter (Range, Duration, or Target) of a formulaic spell by one step when casting it, but the spell level is calculated using the higher parameter.",
+      "requirements": "None",
+      "incompatible_with": ["Rigid Magic"],
+      "notes": "Adds useful versatility to known spells"
+    },
+    {
+      "name": "Flawless Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your magic does not botch due to stress.",
+      "effects": "You never roll botch dice when casting spells, even in stressful situations.",
+      "requirements": "None",
+      "incompatible_with": ["Chaotic Magic"],
+      "notes": "Eliminates the risk of catastrophic magical failures"
+    },
+    {
+      "name": "Free Study",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can continue learning without requiring increasingly advanced books.",
+      "effects": "When studying Arts from books, treat all books as if they had a Level equal to your current score in the Art, if that would be higher than the book's actual Level.",
+      "requirements": "None",
+      "incompatible_with": ["Poor Student"],
+      "notes": "Removes the normal limitation of book levels"
+    },
+    {
+      "name": "Gentle Gift",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your Gift does not cause the normal negative reaction in people and animals.",
+      "effects": "People and animals do not react negatively to your presence due to the Gift. You do not suffer the -3 penalty to social interactions.",
+      "requirements": "None",
+      "incompatible_with": ["Blatant Gift"],
+      "notes": "Invaluable for any magus who interacts with mundanes"
+    },
+    {
+      "name": "Good Teacher",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You are skilled at teaching others magic and mundane subjects.",
+      "effects": "Add +3 to Communication + Teaching when teaching. Students being taught by you gain +3 experience points.",
+      "requirements": "None",
+      "incompatible_with": ["Poor Teacher"],
+      "notes": "Excellent for covenant life and training apprentices"
+    },
+    {
+      "name": "Great Intelligence",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your Intelligence is exceptionally high.",
+      "effects": "Your Intelligence is +3 higher than your normal maximum (typically raising the limit from +3 to +6).",
+      "requirements": "None",
+      "incompatible_with": ["Poor Memory", "Weak Scholar"],
+      "notes": "Dramatically improves learning and lab work"
+    },
+    {
+      "name": "Great Perception",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your Perception is exceptionally keen.",
+      "effects": "Your Perception is +3 higher than your normal maximum (typically raising the limit from +3 to +6).",
+      "requirements": "None",
+      "incompatible_with": ["Poor Senses"],
+      "notes": "Improves awareness and some magical activities"
+    },
+    {
+      "name": "Harnessed Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You can control your magic even when you don't want to cast spells.",
+      "effects": "You can choose not to use magic even when it would normally be automatic, such as when using magical items or being affected by spells.",
+      "requirements": "None",
+      "incompatible_with": ["Uncontrolled Magic"],
+      "notes": "Allows selective use of magical effects"
+    },
+    {
+      "name": "Hermetic Prestige",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have a reputation for excellence within the Order of Hermes.",
+      "effects": "You have a Reputation (choose focus) of 3 within the Order. This provides +3 to social interactions with other Hermetic magi in appropriate situations.",
+      "requirements": "Must choose specific area of prestige",
+      "incompatible_with": ["Hermetic Infamy"],
+      "notes": "Very useful for political situations within the Order"
+    },
+    {
+      "name": "Inventive Genius",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You have a natural talent for creating new spells and magical innovations.",
+      "effects": "Add +3 to Lab Totals when inventing spells. Add +6 to Lab Totals when creating original spells (not learning from lab texts).",
+      "requirements": "None",
+      "incompatible_with": ["Poor Hermetic Theorist"],
+      "notes": "Essential for characters focused on magical research"
+    },
+    {
+      "name": "Life-Linked Spontaneous Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You can sacrifice health for more powerful spontaneous magic.",
+      "effects": "You may take Body levels as if they were Fatigue levels to power spontaneous magic. Each Body level taken gives the same benefit as a Fatigue level.",
+      "requirements": "None",
+      "incompatible_with": ["None specific"],
+      "notes": "Dangerous but potentially very powerful"
+    },
+    {
+      "name": "Magical Memory",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have perfect recall for magical knowledge and experiences.",
+      "effects": "You perfectly remember all magical knowledge, spells seen cast, and magical experiences. +3 to rolls involving magical memory.",
+      "requirements": "None",
+      "incompatible_with": ["Poor Memory"],
+      "notes": "Useful for learning spells and magical investigation"
+    },
+    {
+      "name": "Major Magical Focus",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You have an exceptional talent with a specific type of magic.",
+      "effects": "Choose a focus (e.g., 'fire magic', 'healing', 'animals'). Double all applicable Arts when calculating totals for magic within your focus.",
+      "requirements": "Must choose specific magical focus",
+      "incompatible_with": ["Minor Magical Focus with same focus"],
+      "notes": "Extremely powerful for specialized magic"
+    },
+    {
+      "name": "Mastered Spells",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You begin play with thoroughly mastered versions of some of your spells.",
+      "effects": "Choose spells totaling 30 levels. You know these spells with a Mastery Score of 1 and one Mastery ability for each.",
+      "requirements": "Must know the spells",
+      "incompatible_with": ["None specific"],
+      "notes": "Provides immediate access to spell mastery abilities"
+    },
+    {
+      "name": "Method Caster",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have developed a specific method of casting that aids your magic.",
+      "effects": "Choose a method (gestures, words, focus item, etc.). When you use this method, add +3 to Spell casting totals. Without it, suffer -6.",
+      "requirements": "Must choose specific method",
+      "incompatible_with": ["Flexible Caster"],
+      "notes": "High risk, high reward casting style"
+    },
+    {
+      "name": "Minor Magical Focus",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have a talent with a specific type of magic.",
+      "effects": "Choose a focus (e.g., 'fire magic', 'healing', 'animals'). Add the lowest applicable Art again when calculating totals for magic within your focus.",
+      "requirements": "Must choose specific magical focus",
+      "incompatible_with": ["Major Magical Focus with same focus"],
+      "notes": "Good specialization without major limitations"
+    },
+    {
+      "name": "Personal Vis Source",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have access to a reliable source of vis that produces a small amount each year.",
+      "effects": "You have a source that produces 3 pawns of vis per year of a single Art. The source is tied to you personally.",
+      "requirements": "Must define the source and type of vis",
+      "incompatible_with": ["None specific"],
+      "notes": "Valuable for laboratory work and magical research"
+    },
+    {
+      "name": "Puissant Art",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have exceptional skill with one of the Hermetic Arts.",
+      "effects": "Add +3 to the score of one Art for all purposes except experience point costs.",
+      "requirements": "Must choose a specific Art",
+      "incompatible_with": ["Deficiency in the same Art"],
+      "notes": "One of the most popular Hermetic Virtues"
+    },
+    {
+      "name": "Quiet Magic",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can cast spells without speaking loudly.",
+      "effects": "You can cast spells while speaking quietly (whisper) without penalty. Normal voice gives +1 bonus instead of 0.",
+      "requirements": "None",
+      "incompatible_with": ["Loud Magic"],
+      "notes": "Excellent for stealth and social situations"
+    },
+    {
+      "name": "Secondary Insight",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can study two Arts simultaneously in the laboratory.",
+      "effects": "When studying Arts in the laboratory, you may study a second Art at the same time, gaining half the normal experience in the second Art.",
+      "requirements": "None",
+      "incompatible_with": ["None specific"],
+      "notes": "Improves efficiency of laboratory study time"
+    },
+    {
+      "name": "Side Effect",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your spells have a minor additional effect beyond their intended purpose.",
+      "effects": "Choose a minor side effect that accompanies all your spells (flowers bloom, temperature drops, etc.). This effect is cosmetic but noticeable.",
+      "requirements": "Must choose specific side effect",
+      "incompatible_with": ["Subtle Magic"],
+      "notes": "Adds flavor but may make magic less subtle"
+    },
+    {
+      "name": "Skilled Parens",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your parens was exceptionally skilled at teaching.",
+      "effects": "You begin with 50 additional experience points that must be spent on Hermetic Arts and abilities taught during apprenticeship.",
+      "requirements": "Must be spent on appropriate abilities",
+      "incompatible_with": ["Incompetent Parens"],
+      "notes": "Excellent for beginning characters"
+    },
+    {
+      "name": "Special Circumstances",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your magic works better under specific circumstances.",
+      "effects": "Choose specific circumstances (underground, at night, during storms, etc.). Add +3 to all casting totals when circumstances are met.",
+      "requirements": "Must choose specific circumstances",
+      "incompatible_with": ["Difficult Circumstances"],
+      "notes": "Situational but potentially very powerful"
+    },
+    {
+      "name": "Spell Improvisation",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can vary your formulaic spells more than normal.",
+      "effects": "You may add or remove one magnitude worth of effect to formulaic spells when casting, but must make a stress roll with a botch threshold equal to the magnitude adjustment.",
+      "requirements": "None",
+      "incompatible_with": ["Rigid Magic"],
+      "notes": "Adds flexibility but with risk"
+    },
+    {
+      "name": "Strong Faerie Blood",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You have significant faerie ancestry that affects your magic.",
+      "effects": "You are strongly connected to the Faerie realm. +3 to all totals when dealing with faeries and faerie magic. May learn some faerie powers.",
+      "requirements": "Must have appropriate background",
+      "incompatible_with": ["Weak Faerie Blood"],
+      "notes": "Provides access to unique magical abilities"
+    },
+    {
+      "name": "Study Bonus",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You learn faster when studying certain subjects.",
+      "effects": "Choose one Art or Ability. Add +2 to Study Totals when learning that subject from any source.",
+      "requirements": "Must choose specific subject",
+      "incompatible_with": ["Study Penalty in same subject"],
+      "notes": "Good for focused character concepts"
+    },
+    {
+      "name": "Subtle Magic",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your magic is less obvious and detectable.",
+      "effects": "Add +3 to rolls to make your magic subtle or undetectable. Observers suffer -3 to notice your magic being cast.",
+      "requirements": "None",
+      "incompatible_with": ["Blatant Magic", "Side Effect"],
+      "notes": "Excellent for covert operations"
+    },
+    {
+      "name": "Temporal Influence",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You can slightly influence the flow of time around yourself.",
+      "effects": "Once per day, you may act as if you had +3 to Initiative for one round, or extend the duration of one spell by one step without changing its level.",
+      "requirements": "None",
+      "incompatible_with": ["Temporal Weakness"],
+      "notes": "Rare and powerful time-related ability"
+    },
+    {
+      "name": "Tethered Magic",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your spells maintain a connection to you that you can sense and influence.",
+      "effects": "You can sense the status of spells you have cast and can choose to end them at any time, regardless of distance.",
+      "requirements": "None",
+      "incompatible_with": ["None specific"],
+      "notes": "Useful for ongoing spell management"
+    },
+    {
+      "name": "Unbound Tongue",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can cast spells in any language you know.",
+      "effects": "You may cast formulaic spells in any language you speak at score 4+, not just the language you learned them in.",
+      "requirements": "Must know other languages at 4+ score",
+      "incompatible_with": ["None specific"],
+      "notes": "Useful for international magi"
+    },
+    {
+      "name": "Versatile Sleeper",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You can maintain magical effects while sleeping.",
+      "effects": "Concentration duration spells do not end when you fall asleep. You maintain normal Concentration with no penalty while sleeping.",
+      "requirements": "None",
+      "incompatible_with": ["Light Sleeper"],
+      "notes": "Allows overnight magical effects"
+    },
+    {
+      "name": "Vim Mastery",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You have exceptional understanding of raw magical power.",
+      "effects": "Add +2 to all totals involving vis use, magical item activation, and penetration calculations.",
+      "requirements": "None",
+      "incompatible_with": ["Vim Weakness"],
+      "notes": "Broad benefits for magical activities"
+    },
+    {
+      "name": "Wizard's Communion",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You are skilled at participating in group magic.",
+      "effects": "Add +3 to your effective Magic Theory score when participating in Wizard's Communion spells or other group magical activities.",
+      "requirements": "None",
+      "incompatible_with": ["None specific"],
+      "notes": "Essential for covenant-level magical projects"
+    }
+  ]
+}
