@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "metadata": {
     "title": "Houses of Hermes",
@@ -270,4 +271,278 @@
       "notes": "House Diedne was eliminated from the Order during the Schism War. References included for historical completeness."
     }
   ]
+=======
+{
+  "metadata": {
+    "title": "Houses of Hermes",
+    "description": "Complete listing of all 13 Houses of Hermes with their philosophies, benefits, and characteristics",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "houses": [
+    {
+      "name": "Bonisagus",
+      "motto": "Magic is meant to be shared",
+      "philosophy": "The founders of the Order, dedicated to magical theory and research. They believe magic should be shared freely among all magi for the advancement of the Order.",
+      "history": "Founded by Bonisagus and Trianoma, who created the Order of Hermes and the Parma Magica. They established the Code of Hermes and the system of Hermetic magic.",
+      "organization": "Highly academic, with extensive libraries and research facilities. Masters take apprentices based on magical potential rather than bloodlines.",
+      "specialties": ["Magical Theory", "Spell Research", "Enchantment", "Teaching"],
+      "typical_virtues": ["Book Learner", "Good Teacher", "Inventive Genius", "Puissant Magic Theory"],
+      "typical_flaws": ["Study Requirement", "Weak Spontaneous Magic", "Book Oriented"],
+      "house_benefits": {
+        "special_ability": "May take another magus as a source for original research twice per year",
+        "bonus": "+3 to Magic Theory when learning spells from lab texts"
+      },
+      "notable_covenants": ["Durenmar", "Various research-focused covenants"],
+      "relationships": {
+        "allies": ["Jerbiton", "Mercere"],
+        "rivals": ["Tremere", "Tytalus"],
+        "neutral": ["Bjornaer", "Criamon", "Ex Miscellanea", "Flambeau", "Guernicus", "Merinita", "Verditius"]
+      }
+    },
+    {
+      "name": "Bjornaer",
+      "motto": "The beast within reveals the truth",
+      "philosophy": "Magic and nature are one. They believe in maintaining the balance between civilization and the wild, and that understanding animal nature reveals deeper truths.",
+      "history": "Founded by Bjornaer the Founder, a powerful shapeshifter. The house has ancient connections to druidic traditions and animal spirits.",
+      "organization": "Loosely organized, with magi often living in wilderness areas. Strong emphasis on personal totems and animal forms.",
+      "specialties": ["Animal Ken", "Shapeshifting", "Wilderness Survival", "Animal Magic"],
+      "typical_virtues": ["Shapeshifter", "Animal Ken", "Wilderness Sense", "Strong-Willed"],
+      "typical_flaws": ["Animal Companion", "Hatred (Civilization)", "Social Handicap"],
+      "house_benefits": {
+        "special_ability": "Heartbeast - can transform into a specific animal form",
+        "bonus": "Animal handling and wilderness survival bonuses"
+      },
+      "notable_covenants": ["Crintera", "Various wilderness covenants"],
+      "relationships": {
+        "allies": ["Merinita", "Ex Miscellanea"],
+        "rivals": ["Jerbiton", "Tremere"],
+        "neutral": ["Bonisagus", "Criamon", "Flambeau", "Guernicus", "Mercere", "Tytalus", "Verditius"]
+      }
+    },
+    {
+      "name": "Criamon",
+      "motto": "The path to perfection winds through mystery",
+      "philosophy": "Seekers of ultimate truth and cosmic understanding. They believe reality has hidden layers that can only be perceived through mystical insight and symbolic thinking.",
+      "history": "Founded by Criamon, a mysterious figure who claimed to have achieved transcendence. The house's origins are shrouded in mystery and philosophical debate.",
+      "organization": "Highly individualistic, with each magus following their own path to enlightenment. Organized around philosophical schools and mystery traditions.",
+      "specialties": ["Enigmatic Wisdom", "Divination", "Meditation", "Symbolic Magic"],
+      "typical_virtues": ["Enigmatic Wisdom", "Second Sight", "Premonitions", "Clear Thinker"],
+      "typical_flaws": ["Driven (Seeking Enlightenment)", "Incomprehensible", "Weird Magic"],
+      "house_benefits": {
+        "special_ability": "Enigmatic Wisdom - special ability for perceiving hidden truths",
+        "bonus": "Bonuses to divination and perception-based activities"
+      },
+      "notable_covenants": ["Cave of Twisting Shadows", "Various hermitages"],
+      "relationships": {
+        "allies": ["Merinita", "Bonisagus"],
+        "rivals": ["Tremere", "Flambeau"],
+        "neutral": ["Bjornaer", "Ex Miscellanea", "Guernicus", "Jerbiton", "Mercere", "Tytalus", "Verditius"]
+      }
+    },
+    {
+      "name": "Ex Miscellanea",
+      "motto": "United in diversity",
+      "philosophy": "A collection of diverse magical traditions united under Hermetic theory. They believe that all magical traditions have value and can be integrated into Hermetic magic.",
+      "history": "Not founded by a single person, but formed from various hedge wizards, folk magicians, and non-Hermetic traditions that joined the Order over time.",
+      "organization": "Extremely diverse, with numerous sub-traditions and lineages. Organization varies greatly between different groups within the house.",
+      "specialties": ["Varies by tradition", "Folk Magic", "Hedge Magic", "Cultural Magic"],
+      "typical_virtues": ["Folk Ken", "Social Contacts", "Wealthy", "Strong Faerie Blood"],
+      "typical_flaws": ["Hedge Wizard", "Weird Magic", "Social Handicap"],
+      "house_benefits": {
+        "special_ability": "Access to non-Hermetic magical traditions and abilities",
+        "bonus": "Varied based on specific tradition"
+      },
+      "notable_covenants": ["Varies widely", "Often integrated into mixed covenants"],
+      "relationships": {
+        "allies": ["Merinita", "Bjornaer"],
+        "rivals": ["Tremere", "Guernicus"],
+        "neutral": ["Bonisagus", "Criamon", "Flambeau", "Jerbiton", "Mercere", "Tytalus", "Verditius"]
+      }
+    },
+    {
+      "name": "Flambeau",
+      "motto": "Power through fire and force",
+      "philosophy": "Magical might makes right. They believe that magical power should be used decisively and that conflict tests and proves worthiness.",
+      "history": "Founded by Flambeau, a powerful fire magus and warrior. The house has a long tradition of magical dueling and martial prowess.",
+      "organization": "Organized around schools of magical combat and dueling. Strong emphasis on mentorship and proving oneself through magical contests.",
+      "specialties": ["Magical Combat", "Ignem Magic", "Warfare", "Dueling"],
+      "typical_virtues": ["Puissant Ignem", "Fast Caster", "Warrior", "Brave"],
+      "typical_flaws": ["Wrathful", "Overconfident", "Enemies"],
+      "house_benefits": {
+        "special_ability": "Flambeau combat techniques and fire mastery",
+        "bonus": "+2 to initiative in magical combat"
+      },
+      "notable_covenants": ["Voluntas", "Various militant covenants"],
+      "relationships": {
+        "allies": ["Tytalus", "Verditius"],
+        "rivals": ["Jerbiton", "Criamon"],
+        "neutral": ["Bonisagus", "Bjornaer", "Ex Miscellanea", "Guernicus", "Mercere", "Merinita", "Tremere"]
+      }
+    },
+    {
+      "name": "Guernicus",
+      "motto": "Justice through law and order",
+      "philosophy": "The Code of Hermes must be upheld and enforced. They believe that order and justice are essential for the survival and prosperity of the Order.",
+      "history": "Founded by Guernicus the Founder, who helped establish the legal framework of the Order. They serve as the Order's investigators and judges.",
+      "organization": "Highly structured, with clear hierarchies and procedures. Organized around regional Tribunals and investigative networks.",
+      "specialties": ["Hermetic Law", "Investigation", "Mentem Magic", "Truth Detection"],
+      "typical_virtues": ["Hermetic Prestige", "Puissant Mentem", "True Faith", "Strong-Willed"],
+      "typical_flaws": ["Rigid Thinking", "Enemies (Lawbreakers)", "Duty (Order)"],
+      "house_benefits": {
+        "special_ability": "Quaesitor authority and investigation techniques",
+        "bonus": "Legal authority within the Order"
+      },
+      "notable_covenants": ["Magvillus", "Various Tribunal seats"],
+      "relationships": {
+        "allies": ["Bonisagus", "Mercere"],
+        "rivals": ["Ex Miscellanea", "Tytalus"],
+        "neutral": ["Bjornaer", "Criamon", "Flambeau", "Jerbiton", "Merinita", "Tremere", "Verditius"]
+      }
+    },
+    {
+      "name": "Jerbiton",
+      "motto": "Magic enhances mundane excellence",
+      "philosophy": "Magic should serve to elevate and refine human culture and civilization. They believe in the integration of magical and mundane arts.",
+      "history": "Founded by Jerbiton, a cultured and sophisticated magus who believed magic should enhance rather than replace mundane achievements.",
+      "organization": "Organized around salons, academies, and cultural centers. Strong emphasis on artistic achievement and social refinement.",
+      "specialties": ["Art", "Social Skills", "Crafting", "Cultural Magic"],
+      "typical_virtues": ["Gentle Gift", "Social Contacts", "Wealthy", "Educated"],
+      "typical_flaws": ["Weak Magic", "Social Obligations", "Proud"],
+      "house_benefits": {
+        "special_ability": "Integration of magic with mundane arts and crafts",
+        "bonus": "Social and artistic bonuses"
+      },
+      "notable_covenants": ["Valnastium", "Various urban covenants"],
+      "relationships": {
+        "allies": ["Bonisagus", "Mercere"],
+        "rivals": ["Flambeau", "Bjornaer"],
+        "neutral": ["Criamon", "Ex Miscellanea", "Guernicus", "Merinita", "Tremere", "Tytalus", "Verditius"]
+      }
+    },
+    {
+      "name": "Mercere",
+      "motto": "Communication binds the Order",
+      "philosophy": "Information and communication are the lifeblood of the Order. They believe that connecting magi across vast distances is essential for unity and progress.",
+      "history": "Founded by Mercere, who lost his magical gift but remained essential to the Order through his communication network and organizational skills.",
+      "organization": "Highly organized around trade routes and communication networks. Many members are not gifted magi but mundane members of the house.",
+      "specialties": ["Communication", "Trade", "Transport", "Information Gathering"],
+      "typical_virtues": ["Social Contacts", "Wealthy", "Well-Traveled", "Gossip"],
+      "typical_flaws": ["Ungifted (for mundanes)", "Wanderlust", "Obligations"],
+      "house_benefits": {
+        "special_ability": "Redcap network and magical communication methods",
+        "bonus": "Access to Order-wide information and trade networks"
+      },
+      "notable_covenants": ["Harco", "Trading posts throughout Europe"],
+      "relationships": {
+        "allies": ["Bonisagus", "Jerbiton", "Guernicus"],
+        "rivals": ["None traditionally"],
+        "neutral": ["Bjornaer", "Criamon", "Ex Miscellanea", "Flambeau", "Merinita", "Tremere", "Tytalus", "Verditius"]
+      }
+    },
+    {
+      "name": "Merinita",
+      "motto": "Magic and faerie are kindred spirits",
+      "philosophy": "The magical and faerie realms are deeply connected. They believe that understanding and working with faeries enhances magical understanding.",
+      "history": "Founded by Merinita, who had extensive dealings with faeries and believed they held keys to magical understanding that Hermetic theory alone could not provide.",
+      "organization": "Loosely organized around faerie courts and magical forests. Structure often mirrors faerie hierarchies and seasonal cycles.",
+      "specialties": ["Faerie Lore", "Nature Magic", "Illusion", "Wild Magic"],
+      "typical_virtues": ["Faerie Blood", "Second Sight", "Wilderness Sense", "Strong Faerie Blood"],
+      "typical_flaws": ["Faerie Upbringing", "Weird Magic", "Susceptible to Faerie Powers"],
+      "house_benefits": {
+        "special_ability": "Enhanced interaction with faeries and nature spirits",
+        "bonus": "Bonuses when dealing with faerie magic and creatures"
+      },
+      "notable_covenants": ["Irencillia", "Various forest covenants"],
+      "relationships": {
+        "allies": ["Criamon", "Bjornaer", "Ex Miscellanea"],
+        "rivals": ["Tremere", "Guernicus"],
+        "neutral": ["Bonisagus", "Flambeau", "Jerbiton", "Mercere", "Tytalus", "Verditius"]
+      }
+    },
+    {
+      "name": "Tremere",
+      "motto": "Hierarchy and discipline bring power",
+      "philosophy": "Magical power requires discipline, hierarchy, and unified purpose. They believe that organized magical research and strict structure maximize magical potential.",
+      "history": "Founded by Tremere, who organized his followers into a highly disciplined hierarchy. They have a reputation for political maneuvering and ambitious magical research.",
+      "organization": "Extremely hierarchical with clear ranks and chain of command. Strong emphasis on loyalty to house and advancement through merit and achievement.",
+      "specialties": ["Certamen", "Organization", "Political Maneuvering", "Structured Magic"],
+      "typical_virtues": ["Hermetic Prestige", "Strong-Willed", "Ambitious", "Good Leader"],
+      "typical_flaws": ["Ambitious", "Enemies", "Obligation (House)"],
+      "house_benefits": {
+        "special_ability": "House hierarchy provides resources and political support",
+        "bonus": "Bonuses to certamen and house advancement"
+      },
+      "notable_covenants": ["Coeris", "Various politically important covenants"],
+      "relationships": {
+        "allies": ["Guernicus (sometimes)"],
+        "rivals": ["Bonisagus", "Tytalus", "Criamon"],
+        "neutral": ["Bjornaer", "Ex Miscellanea", "Flambeau", "Jerbiton", "Mercere", "Merinita", "Verditius"]
+      }
+    },
+    {
+      "name": "Tytalus",
+      "motto": "Conflict reveals truth",
+      "philosophy": "Opposition and conflict are necessary for growth and the discovery of truth. They believe that challenging authority and testing limits leads to advancement.",
+      "history": "Founded by Tytalus, who believed that magical and intellectual progress required constant challenge and conflict. Known for producing both great heroes and dangerous villains.",
+      "organization": "Loosely organized, with emphasis on individual achievement and challenging established order. Masters often test apprentices through difficult trials.",
+      "specialties": ["Debate", "Challenging Authority", "Innovation", "Pushing Limits"],
+      "typical_virtues": ["Strong-Willed", "Brave", "Rebel", "Quick Thinker"],
+      "typical_flaws": ["Enemies", "Overconfident", "Rebellious"],
+      "house_benefits": {
+        "special_ability": "Enhanced ability to overcome obstacles and challenges",
+        "bonus": "Bonuses when acting against overwhelming odds"
+      },
+      "notable_covenants": ["Fudarus", "Various rebellious or challenging covenants"],
+      "relationships": {
+        "allies": ["Flambeau"],
+        "rivals": ["Tremere", "Guernicus"],
+        "neutral": ["Bonisagus", "Bjornaer", "Criamon", "Ex Miscellanea", "Jerbiton", "Mercere", "Merinita", "Verditius"]
+      }
+    },
+    {
+      "name": "Verditius",
+      "motto": "Magic given form endures",
+      "philosophy": "Magic is best expressed through creation of lasting magical items. They believe that enchanted objects represent the highest form of magical achievement.",
+      "history": "Founded by Verditius and Wayland the Smith, combining Hermetic theory with ancient crafting traditions. Known for creating the finest magical items in the Order.",
+      "organization": "Organized around workshops and master-apprentice relationships. Strong guild-like structure with emphasis on craftsmanship and magical item creation.",
+      "specialties": ["Magic Item Creation", "Crafting", "Enchantment", "Material Magic"],
+      "typical_virtues": ["Puissant Magic Theory", "Skilled Craftsman", "Inventive Genius", "Affinity with Craft"],
+      "typical_flaws": ["Study Requirement", "Obsessed (Crafting)", "Proud"],
+      "house_benefits": {
+        "special_ability": "Enhanced magical item creation and crafting abilities",
+        "bonus": "Bonuses to enchantment and crafting activities"
+      },
+      "notable_covenants": ["Verdi", "Various crafting-focused covenants"],
+      "relationships": {
+        "allies": ["Flambeau", "Bonisagus"],
+        "rivals": ["None traditionally"],
+        "neutral": ["Bjornaer", "Criamon", "Ex Miscellanea", "Guernicus", "Jerbiton", "Mercere", "Merinita", "Tremere", "Tytalus"]
+      }
+    },
+    {
+      "name": "Diedne",
+      "motto": "Nature's magic flows eternal",
+      "philosophy": "Magic should work in harmony with natural cycles and druidic traditions. They believed Hermetic magic was enhanced by ancient nature-based practices.",
+      "history": "Founded by Diedne, who brought druidic magical traditions into the Order. Destroyed during the Schism War due to their alleged betrayal of the Order.",
+      "organization": "Was organized around groves and natural gathering places, following seasonal cycles and druidic hierarchies.",
+      "specialties": ["Druidic Magic", "Nature Magic", "Seasonal Magic", "Ancient Traditions"],
+      "typical_virtues": ["Wilderness Sense", "Animal Ken", "Druidic Magic", "Natural Magician"],
+      "typical_flaws": ["Pagan", "Enemies (Order)", "Weird Magic"],
+      "house_benefits": {
+        "special_ability": "Enhanced spontaneous magic and nature-based spells",
+        "bonus": "Bonuses to magic performed in natural settings"
+      },
+      "notable_covenants": ["Destroyed", "Various hidden groves (historical)"],
+      "relationships": {
+        "allies": ["Extinct"],
+        "rivals": ["All houses (historically)"],
+        "neutral": ["None - house destroyed"]
+      },
+      "status": "Extinct - Destroyed during the Schism War",
+      "notes": "House Diedne was eliminated from the Order during the Schism War. References included for historical completeness."
+    }
+  ]
+>>>>>>> a7fbb5b0a851c3b777d7d21298199598f7395ac4
 }

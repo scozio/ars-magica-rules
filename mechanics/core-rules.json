@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "metadata": {
     "title": "Core Game Mechanics",
@@ -280,4 +281,288 @@
       "inevitability": "All magi accumulate Warping - it's part of magical life"
     }
   ]
+=======
+{
+  "metadata": {
+    "title": "Core Game Mechanics",
+    "description": "Essential rules and mechanics for Ars Magica 5th Edition",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "mechanics": [
+    {
+      "name": "Stress Die",
+      "category": "Core Mechanics",
+      "description": "The primary die roll used in dramatic and stressful situations.",
+      "procedure": [
+        "Roll 1d10",
+        "If you roll 1, roll again and check for botch",
+        "If you roll 0 (10), roll again and double the result",
+        "Continue doubling for each additional 0",
+        "Add relevant Characteristic + Ability + modifiers"
+      ],
+      "botch_rules": [
+        "If you roll 1, count botch dice (usually = stress level)",
+        "Roll botch dice (d10s)",
+        "Each 0 rolled = one botch",
+        "If any botches occur, something goes dramatically wrong"
+      ],
+      "when_used": "Combat, spellcasting, dangerous activities, important social situations"
+    },
+    {
+      "name": "Simple Die",
+      "category": "Core Mechanics", 
+      "description": "A straightforward die roll used for routine activities.",
+      "procedure": [
+        "Roll 1d10",
+        "Add relevant Characteristic + Ability + modifiers",
+        "Compare to difficulty number"
+      ],
+      "when_used": "Routine activities, non-stressful situations, laboratory work",
+      "notes": "No botching possible, no explosion on 0"
+    },
+    {
+      "name": "Difficulty Numbers",
+      "category": "Core Mechanics",
+      "description": "Target numbers for various task difficulties.",
+      "difficulty_scale": {
+        "3": "Trivial (anyone can do it)",
+        "6": "Easy (most people succeed)",
+        "9": "Standard (50/50 chance for average person)",
+        "12": "Hard (challenging for skilled individuals)",
+        "15": "Extreme (very difficult even for experts)",
+        "18": "Legendary (heroic achievement)",
+        "21+": "Mythic (legendary accomplishment)"
+      },
+      "modifiers": "Circumstances can add +/-1 to +/-9 to the roll"
+    },
+    {
+      "name": "Characteristics",
+      "category": "Character Creation",
+      "description": "The eight core attributes that define a character's basic capabilities.",
+      "characteristics": {
+        "Intelligence": "Reasoning ability, memory, analytical thinking",
+        "Perception": "Awareness, intuition, noticing details",
+        "Strength": "Physical power, muscle, lifting capacity",
+        "Stamina": "Endurance, health, resistance to fatigue",
+        "Presence": "Force of personality, leadership, magnetism",
+        "Communication": "Expression, persuasion, social grace",
+        "Dexterity": "Agility, fine motor control, manual skill",
+        "Quickness": "Speed, reflexes, reaction time"
+      },
+      "score_range": "Typically -3 to +3 for humans, with 0 being average",
+      "notes": "Characteristics rarely change after character creation"
+    },
+    {
+      "name": "Abilities",
+      "category": "Character Development",
+      "description": "Learned skills and knowledge that characters develop over time.",
+      "ability_types": {
+        "General": "Available to all characters",
+        "Academic": "Require formal education",
+        "Arcane": "Related to supernatural knowledge",
+        "Martial": "Combat-related skills",
+        "Supernatural": "Inherent magical abilities"
+      },
+      "advancement": [
+        "Practice: Regular use (1-2 xp per season)",
+        "Training: Learning from teacher (varies by teacher quality)",
+        "Study: Learning from books (Quality of book)",
+        "Exposure: Being around activity (2 xp per season)"
+      ],
+      "experience_costs": "New score × 5 experience points"
+    },
+    {
+      "name": "Virtues and Flaws",
+      "category": "Character Creation",
+      "description": "Special advantages and disadvantages that customize characters.",
+      "virtue_types": {
+        "General": "Available to all characters",
+        "Hermetic": "Available only to magi",
+        "Supernatural": "Provide supernatural abilities",
+        "Social Status": "Define social position",
+        "Story": "Create ongoing story elements"
+      },
+      "flaw_types": {
+        "General": "Common disadvantages",
+        "Hermetic": "Magical limitations for magi",
+        "Supernatural": "Supernatural curses or limitations",
+        "Story": "Create story complications",
+        "Personality": "Character traits that cause problems"
+      },
+      "point_costs": "Minor = 1 point, Major = 3 points",
+      "balance": "Must take equal points in Flaws and Virtues"
+    },
+    {
+      "name": "Magic Resistance",
+      "category": "Magic System",
+      "description": "Protection against hostile magic through various means.",
+      "sources": [
+        "Parma Magica (Hermetic magic resistance)",
+        "Divine protection (True Faith, holy ground)",
+        "Natural magic resistance (some creatures)",
+        "Supernatural auras (protecting inhabitants)"
+      ],
+      "mechanics": [
+        "Magic must penetrate resistance to affect target",
+        "Penetration Total = Spell Level + Penetration Ability + Penetration bonus - Spell Level",
+        "If Penetration Total ≥ Magic Resistance, spell affects target",
+        "If Penetration Total < Magic Resistance, spell fails"
+      ],
+      "parma_magica": "Form bonus (Art score ÷ 5) + General bonus (Parma Magica score × 5)"
+    },
+    {
+      "name": "Fatigue",
+      "category": "Physical Systems",
+      "description": "System for tracking exhaustion and physical exertion.",
+      "fatigue_levels": [
+        "Fresh (no penalty)",
+        "Winded (-1 to physical actions)",
+        "Weary (-3 to physical actions)",
+        "Tired (-5 to physical actions)",
+        "Dazed (-7 to physical actions, must rest)",
+        "Unconscious"
+      ],
+      "recovery": [
+        "Winded: 2 minutes rest",
+        "Weary: 20 minutes rest", 
+        "Tired: 2 hours rest",
+        "Dazed: 8 hours rest",
+        "Unconscious: 24 hours rest"
+      ],
+      "causes": "Strenuous activity, spell casting, loss of blood, disease"
+    },
+    {
+      "name": "Wounds",
+      "category": "Combat System",
+      "description": "System for tracking physical damage and injury.",
+      "wound_levels": [
+        "Light Wound (-1 to all actions)",
+        "Medium Wound (-3 to all actions)",
+        "Heavy Wound (-5 to all actions)",
+        "Incapacitated (unconscious, dying)"
+      ],
+      "body_levels": "Determined by Size + Stamina, typically 5 levels for humans",
+      "healing_times": [
+        "Light: 1 week",
+        "Medium: 1 month", 
+        "Heavy: 1 season",
+        "Incapacitated: 1 year or permanent"
+      ],
+      "recovery_rolls": "Stamina + Chirurgy vs difficulty based on wound severity"
+    },
+    {
+      "name": "Aging",
+      "category": "Character Development",
+      "description": "Rules for character aging and longevity.",
+      "aging_process": [
+        "Make aging roll every 10 years after age 35",
+        "Roll simple die + age/10 (round down) + stress modifier",
+        "Apply results based on total rolled"
+      ],
+      "aging_results": {
+        "8 or less": "No apparent aging",
+        "9-12": "Age normally (+1 to apparent age)",
+        "13-15": "Age poorly (+2 to apparent age, +1 to Aging Points)",
+        "16+": "Age badly (+3 to apparent age, +2 to Aging Points)"
+      },
+      "aging_points": "Accumulate in Characteristics, cause Decrepitude when they exceed Characteristic + 3",
+      "longevity_rituals": "Hermetic magic can slow aging significantly"
+    },
+    {
+      "name": "Laboratory Activities",
+      "category": "Magic System",
+      "description": "Seasonal activities magi can perform in their laboratories.",
+      "lab_total": "Characteristic + Art + Art + Aura + Lab + Specialization bonuses",
+      "activities": [
+        "Learn Spells (from lab texts or invention)",
+        "Invent Spells (create new magical effects)",
+        "Create Magic Items (enchant objects)",
+        "Extract Vis (from magical sources)",
+        "Study Arts (from vis or summae)",
+        "Write Books (create lab texts or summae)"
+      ],
+      "safety": "Lab Total ≥ Spell Level for safe operation, risk of disaster if lower",
+      "seasons": "Most activities take one full season (3 months) to complete"
+    },
+    {
+      "name": "Vis",
+      "category": "Magic System", 
+      "description": "Crystallized magical power used for permanent magical effects.",
+      "types": "Fifteen types corresponding to the Hermetic Arts",
+      "uses": [
+        "Powering longevity rituals",
+        "Creating permanent magical items",
+        "Enhancing laboratory activities",
+        "Trading between magi",
+        "Studying Arts (1 pawn = 2 experience points)"
+      ],
+      "measurement": "Measured in 'pawns' - each pawn contains 1 point of vis",
+      "scarcity": "Vis is rare and valuable, carefully hoarded by magi"
+    },
+    {
+      "name": "Auras",
+      "category": "Magic System",
+      "description": "Supernatural energies that permeate certain locations.",
+      "aura_types": [
+        "Magic: Enhances Hermetic magic",
+        "Divine: Supports divine miracles, hinders other magic",
+        "Faerie: Enhances faerie glamours and illusions", 
+        "Infernal: Corrupts and empowers dark magic"
+      ],
+      "aura_strength": "Typically 1-5, with 5 being extremely powerful",
+      "effects": [
+        "Modify spellcasting totals",
+        "Affect creature behavior and abilities",
+        "Influence vis production",
+        "Create supernatural phenomena"
+      ],
+      "dominance": "Stronger auras can suppress weaker ones of different types"
+    },
+    {
+      "name": "Twilight",
+      "category": "Magic System",
+      "description": "A state of magical transcendence that can permanently change magi.",
+      "causes": [
+        "Botching while casting spells",
+        "Excessive exposure to magical auras",
+        "Warping from magical effects",
+        "Attempting to exceed magical limits"
+      ],
+      "twilight_experience": [
+        "Magus enters altered state of consciousness",
+        "Experiences symbolic visions related to their magic",
+        "May gain mystical insights or comprehensions",
+        "Duration varies from minutes to seasons"
+      ],
+      "effects": [
+        "Possible permanent personality changes",
+        "Gain of supernatural abilities",
+        "Increased Warping Score",
+        "Risk of becoming permanently twilight"
+      ],
+      "prevention": "Careful magical practice and avoiding excessive risks"
+    },
+    {
+      "name": "Warping",
+      "category": "Magic System",
+      "description": "Gradual supernatural change from exposure to magical effects.",
+      "warping_sources": [
+        "Living in magical auras (1 point per year per aura level)",
+        "Being affected by magic (1 point per magnitude over level 1)",
+        "Botching spell rolls",
+        "Using magical items regularly"
+      ],
+      "warping_effects": [
+        "Minor physical or mental changes",
+        "Supernatural quirks and abilities",
+        "Increased sensitivity to magic",
+        "Social difficulties with mundanes"
+      ],
+      "warping_points": "Accumulate over time, causing visible changes at thresholds",
+      "inevitability": "All magi accumulate Warping - it's part of magical life"
+    }
+  ]
+>>>>>>> a7fbb5b0a851c3b777d7d21298199598f7395ac4
 }

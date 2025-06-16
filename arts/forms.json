@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "metadata": {
     "title": "Hermetic Arts - Forms",
@@ -434,4 +435,442 @@
     "limitations": "Each Form has natural boundaries - effects that cross Form boundaries typically require requisites or multiple spells.",
     "vis_correspondence": "Each Form corresponds to a type of vis used in laboratory activities and permanent magical effects."
   }
+=======
+{
+  "metadata": {
+    "title": "Hermetic Arts - Forms",
+    "description": "The ten Hermetic Forms that define what magic affects",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "forms": [
+    {
+      "name": "Animal",
+      "pronunciation": "ah-nee-MAHL",
+      "translation": "Animal",
+      "description": "The Form governing all animals, their bodies, minds, and products. Animal magic affects beasts, birds, fish, insects, and anything derived from animal life.",
+      "core_concept": "Living creatures and animal products",
+      "governs": [
+        "All living animals (mammals, birds, reptiles, fish, insects)",
+        "Animal minds and instincts",
+        "Animal products (leather, bone, wool, silk)",
+        "Animal-derived materials (parchment, glue)",
+        "Animal spirits and souls"
+      ],
+      "does_not_govern": [
+        "Humans (covered by Corpus)",
+        "Plants (covered by Herbam)",
+        "Dead animal matter that has been significantly processed",
+        "Mythical creatures (may require other Forms)"
+      ],
+      "typical_effects": [
+        "Transforming into animal shapes",
+        "Communicating with animals",
+        "Controlling animal behavior",
+        "Healing animal wounds",
+        "Creating or destroying animal products"
+      ],
+      "common_spell_levels": {
+        "basic_animal_communication": "Level 15-20",
+        "transform_into_animal": "Level 25-35",
+        "control_animal_behavior": "Level 10-25",
+        "heal_animal_wounds": "Level 15-25",
+        "create_animal_products": "Level 20-30"
+      },
+      "symbolic_associations": [
+        "Wild nature and instinct",
+        "Fertility and reproduction",
+        "Predator and prey relationships",
+        "Seasonal migrations",
+        "Pack loyalty and hierarchy"
+      ],
+      "related_abilities": ["Animal Handling", "Hunt", "Survival"]
+    },
+    {
+      "name": "Aquam",
+      "pronunciation": "AH-kwam",
+      "translation": "Water",
+      "description": "The Form governing water in all its states, along with other liquids. Aquam magic affects rivers, seas, rain, blood, and any flowing or liquid substance.",
+      "core_concept": "Water and all liquids",
+      "governs": [
+        "All forms of water (ice, steam, liquid)",
+        "Natural liquids (blood, sap, milk)",
+        "Artificial liquids (wine, oil, potions)",
+        "Weather involving water (rain, snow, mist)",
+        "Bodies of water (rivers, lakes, seas)"
+      ],
+      "does_not_govern": [
+        "The containers holding liquids",
+        "Creatures living in water (use Animal)",
+        "Magical properties of liquids (may need Vim)",
+        "Earth mixed with water (use Terram)"
+      ],
+      "typical_effects": [
+        "Controlling water flow and direction",
+        "Purifying contaminated water",
+        "Creating water from nothing",
+        "Walking on water surfaces",
+        "Turning water to ice or steam"
+      ],
+      "common_spell_levels": {
+        "purify_water": "Level 10-15",
+        "control_water_flow": "Level 15-25",
+        "create_large_amounts_water": "Level 20-30",
+        "walk_on_water": "Level 15-20",
+        "part_bodies_of_water": "Level 25-35"
+      },
+      "symbolic_associations": [
+        "Life and purification",
+        "Change and adaptation",
+        "Emotion and intuition",
+        "Cleansing and renewal",
+        "The flow of time"
+      ],
+      "related_abilities": ["Swim", "Survival", "Area Lore (coastal)"]
+    },
+    {
+      "name": "Auram",
+      "pronunciation": "OW-rahm",
+      "translation": "Air",
+      "description": "The Form governing air, wind, weather, and the sky. Auram magic affects the atmosphere, celestial phenomena, and weather patterns.",
+      "core_concept": "Air, weather, and celestial phenomena",
+      "governs": [
+        "Air in all forms and densities",
+        "Wind and weather patterns",
+        "Celestial bodies and their light",
+        "Lightning and thunder",
+        "Atmospheric phenomena (clouds, mist, aurora)"
+      ],
+      "does_not_govern": [
+        "Fire and heat (use Ignem)",
+        "Creatures that fly (use Animal)",
+        "Solid objects falling through air",
+        "The vacuum of space"
+      ],
+      "typical_effects": [
+        "Controlling wind direction and strength",
+        "Predicting and changing weather",
+        "Flying through the air",
+        "Creating storms and lightning",
+        "Breathing underwater or in thin air"
+      ],
+      "common_spell_levels": {
+        "control_wind_direction": "Level 15-20",
+        "predict_weather": "Level 10-15",
+        "personal_flight": "Level 25-35",
+        "create_storm": "Level 30-40",
+        "lightning_bolt": "Level 25-35"
+      ],
+      "symbolic_associations": [
+        "Freedom and movement",
+        "Inspiration and intellect",
+        "Divine providence",
+        "Change and unpredictability",
+        "The breath of life"
+      ],
+      "related_abilities": ["Survival", "Area Lore", "Astronomy"]
+    },
+    {
+      "name": "Corpus",
+      "pronunciation": "KOR-pus",
+      "translation": "Body",
+      "description": "The Form governing the human body, its functions, and human-derived materials. Corpus magic affects human flesh, blood, and physical form.",
+      "core_concept": "Human bodies and human-derived materials",
+      "governs": [
+        "Human bodies and physical forms",
+        "Human blood, flesh, and organs",
+        "Human hair, nails, and teeth",
+        "Human ghosts and spirits",
+        "Products made from human bodies"
+      ],
+      "does_not_govern": [
+        "Human minds (use Mentem)",
+        "Non-human animals (use Animal)",
+        "Diseases caused by external agents",
+        "Aging as a natural process"
+      ],
+      "typical_effects": [
+        "Healing wounds and diseases",
+        "Changing physical appearance",
+        "Enhancing physical abilities",
+        "Detecting health and vitality",
+        "Protecting against physical harm"
+      ],
+      "common_spell_levels": {
+        "heal_light_wounds": "Level 10-15",
+        "heal_serious_wounds": "Level 20-25",
+        "change_appearance": "Level 15-25",
+        "enhance_strength": "Level 20-25",
+        "detect_disease": "Level 10-15"
+      },
+      "symbolic_associations": [
+        "Life and vitality",
+        "Physical perfection",
+        "Mortality and vulnerability",
+        "Strength and endurance",
+        "Human dignity"
+      ],
+      "related_abilities": ["Medicine", "Athletics", "Brawl"]
+    },
+    {
+      "name": "Herbam",
+      "pronunciation": "HAIR-bahm",
+      "translation": "Plant",
+      "description": "The Form governing all plant life and plant-derived materials. Herbam magic affects trees, crops, wood, and anything that grows from the earth.",
+      "core_concept": "Plants and plant-derived materials",
+      "governs": [
+        "All living plants (trees, flowers, crops, moss)",
+        "Dead plant matter (wood, paper, cloth)",
+        "Plant products (fruits, seeds, herbs)",
+        "Processed plant materials (bread, wine)",
+        "Plant-based structures (wooden buildings)"
+      ],
+      "does_not_govern": [
+        "Animals living in plants",
+        "Soil or earth (use Terram)",
+        "Fungi and mushrooms (debated)",
+        "Highly processed plant products"
+      ],
+      "typical_effects": [
+        "Accelerating plant growth",
+        "Shaping and controlling wood",
+        "Creating plant products",
+        "Communicating with plants",
+        "Animating wooden objects"
+      ],
+      "common_spell_levels": {
+        "accelerate_plant_growth": "Level 15-20",
+        "shape_wood": "Level 15-25",
+        "animate_wooden_objects": "Level 25-35",
+        "create_plant_products": "Level 20-30",
+        "wither_plants": "Level 15-20"
+      },
+      "symbolic_associations": [
+        "Growth and fertility",
+        "Patience and endurance",
+        "Natural cycles",
+        "Wisdom and knowledge",
+        "Shelter and sustenance"
+      ],
+      "related_abilities": ["Survival", "Craft (Carpentry)", "Area Lore"]
+    },
+    {
+      "name": "Ignem",
+      "pronunciation": "IG-nem",
+      "translation": "Fire",
+      "description": "The Form governing fire, heat, and light. Ignem magic affects flames, temperature, and luminous phenomena.",
+      "core_concept": "Fire, heat, and light",
+      "governs": [
+        "Fire in all its forms",
+        "Heat and cold (absence of heat)",
+        "Light from any source",
+        "Lightning and electrical phenomena",
+        "Burning and combustion"
+      ],
+      "does_not_govern": [
+        "The fuel that feeds fire",
+        "Smoke (may be Auram)",
+        "Objects that happen to be hot",
+        "Magical light with special properties"
+      ],
+      "typical_effects": [
+        "Creating and controlling flames",
+        "Generating intense heat or cold",
+        "Producing light in darkness",
+        "Protecting from fire damage",
+        "Heating objects from within"
+      ],
+      "common_spell_levels": {
+        "create_small_flame": "Level 5-10",
+        "large_destructive_fire": "Level 25-35",
+        "heat_metal_objects": "Level 15-20",
+        "protection_from_fire": "Level 15-25",
+        "create_intense_light": "Level 10-15"
+      },
+      "symbolic_associations": [
+        "Passion and emotion",
+        "Destruction and renewal",
+        "Illumination and knowledge",
+        "Divine power",
+        "Transformation"
+      ],
+      "related_abilities": ["Craft (Blacksmith)", "Survival", "Brawl"]
+    },
+    {
+      "name": "Imaginem",
+      "pronunciation": "ih-MAH-gih-nem",
+      "translation": "Image",
+      "description": "The Form governing images, sounds, and sensory phenomena. Imaginem magic affects what can be perceived by the senses.",
+      "core_concept": "Sensory perceptions and images",
+      "governs": [
+        "Visual images and illusions",
+        "Sounds and auditory phenomena",
+        "Smells, tastes, and tactile sensations",
+        "Mental images and perceptions",
+        "Artistic representations"
+      ],
+      "does_not_govern": [
+        "The objects that create natural images",
+        "True mind reading (use Mentem)",
+        "Physical changes to appearance",
+        "Magical detection of hidden things"
+      ],
+      "typical_effects": [
+        "Creating visual illusions",
+        "Producing sounds from nowhere",
+        "Making things invisible",
+        "Enhancing or diminishing senses",
+        "Creating phantom sensations"
+      ],
+      "common_spell_levels": {
+        "simple_visual_illusion": "Level 10-15",
+        "complex_illusion": "Level 20-30",
+        "invisibility": "Level 20-25",
+        "ventriloquism": "Level 10-15",
+        "enhanced_senses": "Level 15-20"
+      ],
+      "symbolic_associations": [
+        "Deception and truth",
+        "Art and beauty",
+        "Memory and dreams",
+        "Communication",
+        "The nature of reality"
+      ],
+      "related_abilities": ["Stealth", "Craft (Artist)", "Awareness"]
+    },
+    {
+      "name": "Mentem",
+      "pronunciation": "MEN-tem",
+      "translation": "Mind",
+      "description": "The Form governing minds, thoughts, emotions, and spirits. Mentem magic affects consciousness, memory, and mental phenomena.",
+      "core_concept": "Minds, thoughts, and consciousness",
+      "governs": [
+        "Human thoughts and emotions",
+        "Animal instincts and simple minds",
+        "Memories and mental processes",
+        "Spirits and ghosts",
+        "Mental communication"
+      ],
+      "does_not_govern": [
+        "Physical brains (use Corpus)",
+        "Artificial constructs without minds",
+        "Pure information without consciousness",
+        "Completely alien forms of intelligence"
+      ],
+      "typical_effects": [
+        "Reading thoughts and emotions",
+        "Controlling minds and behavior",
+        "Communicating telepathically",
+        "Affecting memory and perception",
+        "Detecting and influencing spirits"
+      ],
+      "common_spell_levels": {
+        "detect_thoughts": "Level 15-20",
+        "read_surface_thoughts": "Level 20-25",
+        "control_simple_actions": "Level 15-25",
+        "telepathic_communication": "Level 20-25",
+        "modify_memory": "Level 25-30"
+      ],
+      "symbolic_associations": [
+        "Wisdom and folly",
+        "Free will and control",
+        "Identity and self",
+        "Communication",
+        "The soul and spirit"
+      ],
+      "related_abilities": ["Folk Ken", "Guile", "Leadership"]
+    },
+    {
+      "name": "Terram",
+      "pronunciation": "TAIR-rahm",
+      "translation": "Earth",
+      "description": "The Form governing earth, stone, metals, and solid matter. Terram magic affects the ground, minerals, and worked materials.",
+      "core_concept": "Earth, stone, metals, and solid matter",
+      "governs": [
+        "Soil, clay, and earth",
+        "Stone and rock formations",
+        "Metals and minerals",
+        "Gems and crystals",
+        "Worked stone and metal objects"
+      ],
+      "does_not_govern": [
+        "Living things in the earth",
+        "Water mixed with earth (use Aquam)",
+        "Fire used to work metals (use Ignem)",
+        "Complex mechanical devices"
+      ],
+      "typical_effects": [
+        "Shaping stone and earth",
+        "Moving large amounts of earth",
+        "Transmuting base metals",
+        "Creating tunnels and passages",
+        "Strengthening or weakening materials"
+      ],
+      "common_spell_levels": {
+        "shape_stone": "Level 15-20",
+        "move_large_amounts_earth": "Level 20-30",
+        "transmute_metals": "Level 20-25",
+        "create_stone_tunnel": "Level 25-35",
+        "turn_stone_to_mud": "Level 15-20"
+      ],
+      "symbolic_associations": [
+        "Stability and permanence",
+        "Wealth and material prosperity",
+        "Foundation and support",
+        "Endurance and strength",
+        "The physical world"
+      ],
+      "related_abilities": ["Craft (Stonework)", "Craft (Blacksmith)", "Area Lore"]
+    },
+    {
+      "name": "Vim",
+      "pronunciation": "weem",
+      "translation": "Power",
+      "description": "The Form governing raw magic, magical power, and supernatural forces. Vim magic affects spells, magical items, and the fundamental forces of magic itself.",
+      "core_concept": "Raw magical power and supernatural forces",
+      "governs": [
+        "Raw magical energy (vis)",
+        "Active magical effects and spells",
+        "Magical items and enchantments",
+        "Supernatural auras and regiones",
+        "The Gift and magical abilities"
+      ],
+      "does_not_govern": [
+        "The physical objects that are enchanted",
+        "Natural phenomena that aren't magical",
+        "Mundane abilities and skills",
+        "Divine or infernal power (sometimes)"
+      ],
+      "typical_effects": [
+        "Dispelling magical effects",
+        "Detecting magical auras",
+        "Transferring magical power",
+        "Creating magical wards",
+        "Enhancing magical abilities"
+      ],
+      "common_spell_levels": {
+        "detect_magic": "Level 5-10",
+        "dispel_magical_effects": "Level 15-30",
+        "create_magical_ward": "Level 20-30",
+        "transfer_vis": "Level 15-25",
+        "enhance_magical_power": "Level 25-35"
+      ],
+      "symbolic_associations": [
+        "Pure potential and possibility",
+        "The source of all magic",
+        "Divine inspiration",
+        "The fundamental forces of creation",
+        "Hermetic unity"
+      ],
+      "related_abilities": ["Magic Theory", "Parma Magica", "Penetration"]
+    }
+  ],
+  "general_notes": {
+    "form_interactions": "Forms can work together in spells through requisites, where secondary Forms modify or enhance the primary effect.",
+    "advancement": "Forms are advanced through study and practice. Higher scores allow for more powerful effects and better understanding of the Form's nature.",
+    "limitations": "Each Form has natural boundaries - effects that cross Form boundaries typically require requisites or multiple spells.",
+    "vis_correspondence": "Each Form corresponds to a type of vis used in laboratory activities and permanent magical effects."
+  }
+>>>>>>> a7fbb5b0a851c3b777d7d21298199598f7395ac4
 }

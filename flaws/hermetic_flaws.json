@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "metadata": {
     "title": "Hermetic Flaws",
@@ -161,4 +162,169 @@
       "name": "Cyclic Magic (negative)",
       "type": "Minor Hermetic",
       "cost": 1,
+=======
+{
+  "metadata": {
+    "title": "Hermetic Flaws",
+    "description": "Flaws specifically related to Hermetic magic and the Order of Hermes",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "flaws": [
+    {
+      "name": "Blatant Gift",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your Gift causes an especially strong negative reaction in people and animals.",
+      "effects": "People and animals suffer -6 (instead of -3) to interact with you positively. The supernatural is obvious around you.",
+      "requirements": "None",
+      "incompatible_with": ["Gentle Gift"],
+      "notes": "Makes social interaction extremely difficult"
+    },
+    {
+      "name": "Chaotic Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your magic is unpredictable and prone to unexpected effects.",
+      "effects": "All your spells are cast at +3 botch dice. Even successful spells may have minor unintended side effects.",
+      "requirements": "None",
+      "incompatible_with": ["Flawless Magic"],
+      "notes": "Makes magic very risky but can create interesting story opportunities"
+    },
+    {
+      "name": "Deficient Art",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You have great difficulty learning one of the Hermetic Arts.",
+      "effects": "Choose one Art. Experience point costs for that Art are doubled. Maximum score is also halved.",
+      "requirements": "Must choose specific Art",
+      "incompatible_with": ["Affinity with same Art", "Puissant same Art"],
+      "notes": "Severely limits magical development in one area"
+    },
+    {
+      "name": "Difficult Longevity Ritual",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your longevity rituals are less effective than normal.",
+      "effects": "Your longevity rituals provide only half the normal bonus to aging rolls.",
+      "requirements": "None",
+      "incompatible_with": ["None specific"],
+      "notes": "Significantly reduces magical lifespan extension"
+    },
+    {
+      "name": "Hedge Wizard",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You learned magic from a tradition outside standard Hermetic training.",
+      "effects": "You cannot learn spells from lab texts or be taught spells by other magi. You must invent all your spells yourself.",
+      "requirements": "Usually taken by Ex Miscellanea",
+      "incompatible_with": ["None specific"],
+      "notes": "Severely limits magical learning but adds unique flavor"
+    },
+    {
+      "name": "Incompatible Arts",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Two of your Arts interfere with each other when used together.",
+      "effects": "Choose two Arts. When casting spells that combine these Arts, subtract the lower Art from your casting total.",
+      "requirements": "Must choose two specific Arts",
+      "incompatible_with": ["None specific"],
+      "notes": "Creates interesting magical limitations and character concepts"
+    },
+    {
+      "name": "Limit (Hermetic)",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your magic cannot affect certain things or work under certain conditions.",
+      "effects": "Choose a limitation (e.g., 'cannot affect metal', 'only works at night'). Your magic simply fails when the limit applies.",
+      "requirements": "Must choose specific limitation",
+      "incompatible_with": ["None specific"],
+      "notes": "Can create very focused character concepts"
+    },
+    {
+      "name": "Magical Monster",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You have been transformed into a non-human creature by magic.",
+      "effects": "You have the physical form of a monster or magical creature. Gain monster abilities but suffer severe social penalties.",
+      "requirements": "Must define creature type",
+      "incompatible_with": ["Most social Virtues"],
+      "notes": "Dramatic character concept with major roleplaying implications"
+    },
+    {
+      "name": "No Fatigue from Spontaneous Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You cannot exert yourself to power spontaneous magic.",
+      "effects": "You cannot spend Fatigue levels to improve spontaneous magic totals. You are limited to no-Fatigue spontaneous magic only.",
+      "requirements": "None",
+      "incompatible_with": ["Life-Linked Spontaneous Magic"],
+      "notes": "Severely limits spontaneous magic capability"
+    },
+    {
+      "name": "Unstructured Caster",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "You cannot learn formulaic spells in the normal way.",
+      "effects": "You cannot learn or cast formulaic spells. All your magic must be spontaneous or through magical items.",
+      "requirements": "None",
+      "incompatible_with": ["Most formulaic magic Virtues"],
+      "notes": "Completely changes how character approaches magic"
+    },
+    {
+      "name": "Warped Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your magic has been corrupted by prolonged exposure to a foreign magical tradition.",
+      "effects": "All your spells have a 10% chance of producing effects from another magical tradition (Divine, Faerie, or Infernal).",
+      "requirements": "Must choose which tradition",
+      "incompatible_with": ["None specific"],
+      "notes": "Unpredictable but potentially story-rich effects"
+    },
+    {
+      "name": "Weak Magic",
+      "type": "Major Hermetic",
+      "cost": 3,
+      "description": "Your magical power is significantly reduced.",
+      "effects": "Halve your scores in all Arts for the purpose of determining spell levels you can cast and Lab Totals.",
+      "requirements": "None",
+      "incompatible_with": ["Strong Magic"],
+      "notes": "Severely limits magical capability"
+    },
+    {
+      "name": "Ambitious",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You are driven to achieve greatness and recognition within the Order.",
+      "effects": "You must pursue advancement and recognition. Make a stress roll when passing up obvious opportunities for advancement.",
+      "requirements": "None",
+      "incompatible_with": ["Humble"],
+      "notes": "Drives character toward conflict and politics"
+    },
+    {
+      "name": "Careless Sorcerer",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "You are hasty and prone to mistakes in your magical practice.",
+      "effects": "Subtract 3 from Lab Totals if you do anything other than lab work that season.",
+      "requirements": "None",
+      "incompatible_with": ["Cautious Sorcerer"],
+      "notes": "Punishes multitasking during magical research"
+    },
+    {
+      "name": "Chaotic Magic (Minor)",
+      "type": "Minor Hermetic",
+      "cost": 1,
+      "description": "Your magic occasionally produces unexpected minor effects.",
+      "effects": "Add +1 botch die to all spell casting. Minor unexpected effects occur on rolled 1s.",
+      "requirements": "None",
+      "incompatible_with": ["Flawless Magic"],
+      "notes": "Minor version of major flaw with less severe consequences"
+    },
+    {
+      "name": "Cyclic Magic (negative)",
+      "type": "Minor Hermetic",
+      "cost": 1,
+>>>>>>> a7fbb5b0a851c3b777d7d21298199598f7395ac4
       "description": "Your magic is tied to
