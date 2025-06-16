@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "title": "Academic Abilities",
+    "description": "Scholarly abilities requiring formal education or extensive study",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "abilities": [
+    {
+      "name": "Artes Liberales",
+      "category": "Academic",
+      "description": "The seven liberal arts: grammar, rhetoric, logic, arithmetic, geometry, astronomy, and music theory.",
+      "specializations": ["Rhetoric", "Logic", "Astronomy", "Geometry", "Ceremonial Casting", "Academic Writing"],
+      "uses": [
+        "Required for ceremonial casting of rituals",
+        "Understanding scholarly arguments",
+        "Writing formal academic texts",
+        "Calculating astronomical events",
+        "Designing geometric constructions"
+      ],
+      "advancement": "Study (academic texts), Training (from scholars), Practice (academic work)",
+      "notes": "Essential for ritual magic and scholarly pursuits"
+    },
+    {
+      "name": "Civil and Canon Law",
+      "category": "Academic",
+      "description": "Knowledge of legal systems, both secular and church law.",
+      "specializations": ["Civil Law", "Canon Law", "Local Law", "Contracts", "Court Procedure", "Legal Precedent"],
+      "uses": [
+        "Representing clients in court",
+        "Understanding legal rights and obligations",
+        "Drawing up contracts and wills",
+        "Advising on legal matters",
+        "Navigating church law"
+      ],
+      "advancement": "Study (legal texts), Training (from lawyers), Practice (legal work)"
+    },
+    {
+      "name": "Dead Language",
+      "category": "Academic",
+      "description": "Reading and writing languages no longer spoken, such as Latin or ancient Greek.",
+      "specializations": ["Latin", "Greek", "Hebrew", "Arabic", "Ancient Languages", "Religious Texts"],
+      "uses": [
+        "Reading ancient texts and scrolls",
+        "Understanding religious ceremonies",
+        "Translating documents",
+        "Writing scholarly works",
+        "Accessing ancient knowledge"
+      ],
+      "advancement": "Study (texts in the language), Training (from scholars)",
+      "notes": "Each dead language requires a separate ability. Latin is essential for most scholarship"
+    },
+    {
+      "name": "Medicine",
+      "category": "Academic",
+      "description": "Theoretical knowledge of the human body, disease, and medical treatment.",
+      "specializations": ["Anatomy", "Surgery", "Diagnosis", "Pharmacy", "Theory of Humors", "Prognosis"],
+      "uses": [
+        "Diagnosing complex diseases",
+        "Understanding anatomy and physiology",
+        "Prescribing appropriate treatments",
+        "Performing complex surgery",
+        "Teaching medical knowledge"
+      ],
+      "advancement": "Study (medical texts), Training (from physicians), Practice (treating patients)"
+    },
+    {
+      "name": "Philosophy",
+      "category": "Academic",
+      "description": "Knowledge of philosophical thought, logic, and metaphysical questions.",
+      "specializations": ["Aristotelian", "Platonic", "Christian", "Logic", "Ethics", "Natural Philosophy"],
+      "uses": [
+        "Engaging in philosophical debates",
+        "Understanding logical arguments",
+        "Analyzing ethical dilemmas",
+        "Teaching philosophical concepts",
+        "Understanding the nature of reality"
+      ],
+      "advancement": "Study (philosophical works), Training (from philosophers), Practice (debate and discussion)"
+    },
+    {
+      "name": "Theology",
+      "category": "Academic",
+      "description": "Knowledge of religious doctrine, scripture, and divine matters.",
+      "specializations": ["Christian Doctrine", "Biblical Exegesis", "Church History", "Heresy", "Moral Theology", "Comparative Religion"],
+      "uses": [
+        "Interpreting religious texts",
+        "Preaching and teaching religion",
+        "Identifying heretical beliefs",
+        "Understanding church hierarchy",
+        "Debating theological questions"
+      ],
+      "advancement": "Study (religious texts), Training (from clergy), Practice (religious instruction)"
+    }
+  ]
+}

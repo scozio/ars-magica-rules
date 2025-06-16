@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "title": "General Abilities",
+    "description": "Basic abilities available to all characters in everyday life",
+    "version": "1.0",
+    "source": "Ars Magica 5th Edition",
+    "last_updated": "2025-06-13"
+  },
+  "abilities": [
+    {
+      "name": "Animal Handling",
+      "category": "General",
+      "description": "The ability to work with and control animals.",
+      "specializations": ["Horses", "Dogs", "Cattle", "Wild Animals", "Training", "Breeding"],
+      "uses": [
+        "Training animals for specific tasks",
+        "Calming frightened or aggressive animals",
+        "Understanding animal behavior and needs",
+        "Breeding animals for desired traits",
+        "Veterinary care for sick animals"
+      ],
+      "advancement": "Practice (working with animals daily), Training (from experienced handlers), Exposure (around animals)"
+    },
+    {
+      "name": "Area Lore",
+      "category": "General",
+      "description": "Knowledge of a specific geographical region, its people, customs, and secrets.",
+      "specializations": ["Geography", "Politics", "Legends", "People", "History", "Hidden Places"],
+      "uses": [
+        "Navigating through the region",
+        "Knowing local customs and laws",
+        "Identifying important people and places",
+        "Finding services and resources",
+        "Understanding local politics and conflicts"
+      ],
+      "advancement": "Exposure (living in the area), Practice (exploring and socializing), Training (from local guides)",
+      "notes": "Each region requires a separate Area Lore ability"
+    },
+    {
+      "name": "Athletics",
+      "category": "General", 
+      "description": "Physical fitness, coordination, and sporting activities.",
+      "specializations": ["Running", "Jumping", "Climbing", "Swimming", "Acrobatics", "Throwing"],
+      "uses": [
+        "Climbing walls and trees",
+        "Running long distances",
+        "Swimming across rivers",
+        "Jumping over obstacles",
+        "Performing acrobatic maneuvers"
+      ],
+      "advancement": "Practice (regular exercise), Training (from coaches), Exposure (active lifestyle)"
+    },
+    {
+      "name": "Awareness",
+      "category": "General",
+      "description": "Noticing things in your environment and staying alert to danger.",
+      "specializations": ["Ambushes", "Wilderness", "Urban", "Searching", "Eavesdropping", "Body Language"],
+      "uses": [
+        "Spotting hidden enemies or objects",
+        "Noticing when someone is lying",
+        "Hearing conversations through walls",
+        "Detecting magical auras",
+        "Staying alert during watch duty"
+      ],
+      "advancement": "Practice (staying alert), Training (from scouts), Exposure (dangerous environments)"
+    },
+    {
+      "name": "Bargain",
+      "category": "General",
+      "description": "Negotiating prices and making deals in commercial transactions.",
+      "specializations": ["Goods", "Services", "Information", "Intimidation", "Charm", "Fast Talk"],
+      "uses": [
+        "Getting better prices when buying or selling",
+        "Negotiating terms of contracts",
+        "Trading favors and information",
+        "Arranging beneficial deals",
+        "Avoiding unfavorable agreements"
+      ],
+      "advancement": "Practice (regular trading), Training (from merchants), Exposure (market environments)"
+    },
+    {
+      "name": "Brawl",
+      "category": "General",
+      "description": "Fighting without weapons using fists, feet, and grappling.",
+      "uses": [
+        "Fighting in tavern brawls",
+        "Defending yourself when disarmed",
+        "Subduing opponents without killing",
+        "Escaping from grapples",
+        "Intimidating through physical presence"
+      ],
+      "advancement": "Practice (sparring), Training (from fighters), Exposure (violent situations)"
+    },
+    {
+      "name": "Carouse",
+      "category": "General",
+      "description": "Drinking, partying, and socializing in taverns and social gatherings.",
+      "specializations": ["Drinking", "Gaming", "Singing", "Storytelling", "Information Gathering", "Avoiding Trouble"],
+      "uses": [
+        "Gathering information in taverns",
+        "Making friends while drinking",
+        "Winning at gambling games",
+        "Entertaining crowds with stories",
+        "Avoiding getting too drunk"
+      ],
+      "advancement": "Practice (regular carousing), Training (from entertainers), Exposure (social environments)"
+    },
+    {
+      "name": "Charm",
+      "category": "General",
+      "description": "Being likeable and persuasive in social situations.",
+      "specializations": ["Opposite Gender", "Nobles", "Commoners", "First Impressions", "Being Witty", "Flattery"],
+      "uses": [
+        "Making good first impressions",
+        "Convincing people to like you",
+        "Getting favors from friends",
+        "Smoothing over social mistakes",
+        "Being invited to social events"
+      ],
+      "advancement": "Practice (socializing), Training (from courtiers), Exposure (social situations)"
+    },
+    {
+      "name": "Chirurgy",
+      "category": "General",
+      "description": "Medical treatment of wounds and diseases without magic.",
+      "specializations": ["Wounds", "Disease", "Poison", "Surgery", "Herbs", "Diagnosis"],
+      "uses": [
+        "Treating battle wounds",
+        "Diagnosing illnesses",
+        "Performing surgery",
+        "Treating poisoning",
+        "Preventing infection"
+      ],
+      "advancement": "Practice (treating patients), Training (from physicians), Study (medical texts)"
+    },
+    {
+      "name": "Craft",
+      "category": "General",
+      "description": "Creating and repairing items in a specific trade or craft.",
+      "specializations": ["Blacksmith", "Carpenter", "Tailor", "Cook", "Mason", "Jeweler"],
+      "uses": [
+        "Creating tools and weapons",
+        "Repairing damaged equipment",
+        "Evaluating crafted items",
+        "Working with raw materials",
+        "Teaching apprentices"
+      ],
+      "advancement": "Practice (daily crafting), Training (from masters), Study (technical manuals)",
+      "notes": "Each craft requires a separate Craft ability"
+    },
+    {
+      "name": "Folk Ken",
+      "category": "General",
+      "description": "Understanding people's motivations, emotions, and social dynamics.",
+      "specializations": ["Peasants", "Nobles", "Clergy", "Motives", "Lies", "Social Class"],
+      "uses": [
+        "Detecting when someone is lying",
+        "Understanding social hierarchies",
+        "Predicting how people will react",
+        "Reading body language and tone",
+        "Knowing appropriate behavior for social class"
+      ],
+      "advancement": "Practice (people watching), Training (from courtiers), Exposure (diverse social situations)"
+    },
+    {
+      "name": "Guile",
+      "category": "General",
+      "description": "Lying, deceiving, and manipulating others through cunning.",
+      "specializations": ["Lying", "Disguise", "Acting", "Fast Talk", "Misdirection", "Seduction"],
+      "uses": [
+        "Lying convincingly",
+        "Disguising your identity",
+        "Manipulating people's emotions",
+        "Misdirecting attention",
+        "Acting like someone else"
+      ],
+      "advancement": "Practice (deception), Training (from con artists), Exposure (situations requiring deception)"
+    },
+    {
+      "name": "Hunt",
+      "category": "General",
+      "description": "Tracking, hunting, and surviving in the wilderness.",
+      "specializations": ["Tracking", "Bow", "Traps", "Stealth", "Survival", "Specific Animals"],
+      "uses": [
+        "Tracking animals or people",
+        "Setting and finding traps",
+        "Hunting for food",
+        "Moving stealthily through wilderness",
+        "Finding shelter and water"
+      ],
+      "advancement": "Practice (regular hunting), Training (from hunters), Exposure (wilderness living)"
+    },
+    {
+      "name": "Intrigue",
+      "category": "General",
+      "description": "Understanding and participating in political schemes and court politics.",
+      "specializations": ["Court Politics", "Plotting", "Alliances", "Secrets", "Blackmail", "Espionage"],
+      "uses": [
+        "Navigating court politics",
+        "Uncovering political plots",
+        "Building useful alliances",
+        "Gathering political intelligence",
+        "Protecting yourself from schemes"
+      ],
+      "advancement": "Practice (political involvement), Training (from courtiers), Exposure (political environments)"
+    },
+    {
+      "name": "Leadership",
+      "category": "General",
+      "description": "Inspiring and commanding others to follow your direction.",
+      "specializations": ["In Combat", "Inspiration", "Military", "Organization", "Intimidation", "Charisma"],
+      "uses": [
+        "Leading troops in battle",
+        "Organizing group activities",
+        "Inspiring people to follow you",
+        "Maintaining discipline",
+        "Coordinating complex operations"
+      ],
+      "advancement": "Practice (leading groups), Training (from commanders), Exposure (leadership situations)"
+    },
+    {
+      "name": "Legerdemain",
+      "category": "General",
+      "description": "Sleight of hand, pickpocketing, and manual dexterity tricks.",
+      "specializations": ["Pickpocketing", "Palming", "Lockpicking", "Stage Magic", "Escape Artist", "Forgery"],
+      "uses": [
+        "Picking pockets without being noticed",
+        "Opening locks",
+        "Performing stage magic tricks",
+        "Escaping from bonds",
+        "Concealing small objects"
+      ],
+      "advancement": "Practice (performing tricks), Training (from thieves), Exposure (criminal environments)"
+    },
+    {
+      "name": "Living Language",
+      "category": "General",
+      "description": "Speaking and understanding a language currently in use.",
+      "specializations": ["Regional Dialects", "Formal Speech", "Slang", "Poetry", "Oratory", "Accents"],
+      "uses": [
+        "Communicating with native speakers",
+        "Understanding regional dialects",
+        "Speaking formally at court",
+        "Detecting foreign accents",
+        "Composing poetry or speeches"
+      ],
+      "advancement": "Practice (daily use), Training (from native speakers), Exposure (immersion in language)",
+      "notes": "Each language requires a separate ability. Score 5 = native fluency"
+    },
+    {
+      "name": "Music",
+      "category": "General",
+      "description": "Playing musical instruments, singing, and composing music.",
+      "specializations": ["Singing", "Lute", "Harp", "Drums", "Composition", "Dancing"],
+      "uses": [
+        "Entertaining audiences",
+        "Composing new songs",
+        "Playing at social gatherings",
+        "Teaching music to others",
+        "Earning money as a musician"
+      ],
+      "advancement": "Practice (regular playing), Training (from musicians), Study (musical theory)"
+    },
+    {
+      "name": "Organization Lore",
+      "category": "General",
+      "description": "Knowledge of a specific organization's structure, customs, and secrets.",
+      "specializations": ["Hierarchy", "Customs", "Politics", "Secrets", "History", "Important Members"],
+      "uses": [
+        "Understanding organizational politics",
+        "Knowing proper procedures",
+        "Identifying members and ranks",
+        "Understanding organizational goals",
+        "Navigating bureaucracy"
+      ],
+      "advancement": "Practice (working with organization), Training (from members), Study (organizational documents)",
+      "notes": "Each organization requires a separate Lore ability"
+    },
+    {
+      "name": "Profession",
+      "category": "General",
+      "description": "Knowledge and skills related to a specific profession or trade.",
+      "specializations": ["Specific techniques", "Guild politics", "Customer relations", "Quality standards", "Tools", "Materials"],
+      "uses": [
+        "Performing professional duties",
+        "Evaluating professional work",
+        "Understanding trade practices",
+        "Training apprentices",
+        "Dealing with professional problems"
+      ],
+      "advancement": "Practice (working in profession), Training (from masters), Study (professional texts)",
+      "notes": "Each profession requires a separate ability"
+    },
+    {
+      "name": "Ride",
+      "category": "General",
+      "description": "Controlling and working with riding animals, especially horses.",
+      "specializations": ["Horses", "Combat", "Tricks", "Jumping", "Long Distance", "Difficult Terrain"],
+      "uses": [
+        "Riding horses in combat",
+        "Performing mounted tricks",
+        "Long-distance travel",
+        "Riding through difficult terrain",
+        "Training riding animals"
+      ],
+      "advancement": "Practice (regular riding), Training (from riders), Exposure (mounted activities)"
+    },
+    {
+      "name": "Stealth",
+      "category": "General",
+      "description": "Moving unseen and unheard, hiding from observation.",
+      "specializations": ["Hiding", "Moving Silently", "Shadowing", "Ambush", "Urban", "Wilderness"],
+      "uses": [
+        "Sneaking past guards",
+        "Following someone without being noticed",
+        "Setting up ambushes",
+        "Hiding from pursuit",
+        "Infiltrating secure areas"
+      ],
+      "advancement": "Practice (sneaking around), Training (from scouts), Exposure (dangerous situations)"
+    },
+    {
+      "name": "Survival",
+      "category": "General",
+      "description": "Finding food, water, and shelter in the wilderness.",
+      "specializations": ["Forest", "Mountains", "Desert", "Coast", "Winter", "Finding Food"],
+      "uses": [
+        "Finding food and water in the wild",
+        "Building shelter",
+        "Navigating without maps",
+        "Predicting weather",
+        "Avoiding natural hazards"
+      ],
+      "advancement": "Practice (wilderness living), Training (from woodsmen), Exposure (outdoor life)"
+    },
+    {
+      "name": "Swim",
+      "category": "General",
+      "description": "Moving through water and surviving aquatic environments.",
+      "specializations": ["Speed", "Endurance", "Diving", "Rough Water", "Underwater", "Rescue"],
+      "uses": [
+        "Swimming across rivers",
+        "Diving for objects",
+        "Swimming in rough seas",
+        "Holding breath underwater",
+        "Rescuing drowning people"
+      ],
+      "advancement": "Practice (regular swimming), Training (from swimmers), Exposure (aquatic environments)"
+    },
+    {
+      "name": "Teaching",
+      "category": "General",
+      "description": "Instructing others and helping them learn new skills.",
+      "specializations": ["Academic Subjects", "Practical Skills", "Children", "Adults", "Large Groups", "Individual Tutoring"],
+      "uses": [
+        "Teaching apprentices",
+        "Training companions in skills",
+        "Instructing students",
+        "Writing instructional materials",
+        "Organizing educational programs"
+      ],
+      "advancement": "Practice (regular teaching), Training (from educators), Study (pedagogical methods)"
+    }
+  ]
+}
