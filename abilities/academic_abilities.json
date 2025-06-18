@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "metadata": {
     "title": "Academic Abilities",
@@ -95,7 +94,7 @@
       "advancement": "Study (religious texts), Training (from clergy), Practice (religious instruction)"
     }
   ]
-=======
+
 {
   "metadata": {
     "title": "Academic Abilities",
@@ -192,5 +191,4 @@
       "advancement": "Study (religious texts), Training (from clergy), Practice (religious instruction)"
     }
   ]
->>>>>>> a7fbb5b0a851c3b777d7d21298199598f7395ac4
 }
