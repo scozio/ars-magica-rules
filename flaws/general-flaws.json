@@ -1,301 +1,352 @@
-{
-  "metadata": {
-    "title": "General Flaws",
-    "description": "Character flaws available to all characters, not specific to magic",
-    "version": "1.0",
-    "source": "Ars Magica 5th Edition",
-    "last_updated": "2025-06-13"
+[
+  {
+    "name": "Clumsy",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are awkward and prone to accidents.",
+    "effects": "Subtract 3 from rolls involving careful physical coordination. You tend to drop things and trip at inopportune moments.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Perfect Balance"
+    ],
+    "notes": "Creates frequent minor complications"
   },
-  "flaws": [
-    {
-      "name": "Clumsy",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are awkward and prone to accidents.",
-      "effects": "Subtract 3 from rolls involving careful physical coordination. You tend to drop things and trip at inopportune moments.",
-      "requirements": "None",
-      "incompatible_with": ["Perfect Balance"],
-      "notes": "Creates frequent minor complications"
-    },
-    {
-      "name": "Cowardly",
-      "type": "Minor General", 
-      "cost": 1,
-      "description": "You are easily frightened and avoid danger.",
-      "effects": "Make a Brave roll (difficulty 9+) to face serious danger. Subtract 3 from rolls to resist fear effects.",
-      "requirements": "None",
-      "incompatible_with": ["Brave"],
-      "notes": "Limits character's heroic actions"
-    },
-    {
-      "name": "Cursed",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You suffer from supernatural bad luck.",
-      "effects": "Once per session, the storyguide may force you to reroll any successful roll, taking the worse result.",
-      "requirements": "None",
-      "incompatible_with": ["Luck", "Great Luck"],
-      "notes": "Creates dramatic complications"
-    },
-    {
-      "name": "Dark Secret",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You harbor a secret that would cause serious problems if revealed.",
-      "effects": "You have done something shameful or illegal. If discovered, face serious social or legal consequences.",
-      "requirements": "Must define the secret",
-      "incompatible_with": ["None specific"],
-      "notes": "Provides ongoing story tension"
-    },
-    {
-      "name": "Deaf",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You cannot hear sounds.",
-      "effects": "Complete hearing loss. Cannot learn languages normally, automatic failure on hearing-based rolls.",
-      "requirements": "None",
-      "incompatible_with": ["Sharp Ears"],
-      "notes": "Major disability requiring adaptation"
-    },
-    {
-      "name": "Diabolic Past",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You have dealings with demons in your history.",
-      "effects": "Demons know you and may seek you out. You are more susceptible to Infernal corruption.",
-      "requirements": "Must define the past involvement",
-      "incompatible_with": ["True Faith"],
-      "notes": "Creates ongoing supernatural threats"
-    },
-    {
-      "name": "Enemies",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Someone or some group actively opposes you.",
-      "effects": "You have enemies who will periodically cause problems. They actively work against your interests.",
-      "requirements": "Must define who and why",
-      "incompatible_with": ["Social Contacts with same group"],
-      "notes": "Provides regular antagonists"
-    },
-    {
-      "name": "Fragile Constitution",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You tire easily and recover slowly from exertion.",
-      "effects": "Subtract 3 from rolls to resist fatigue. Take an extra Fatigue level from strenuous activity.",
-      "requirements": "None",
-      "incompatible_with": ["Reserves of Strength"],
-      "notes": "Limits physical capabilities"
-    },
-    {
-      "name": "Greedy",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have an excessive desire for wealth and possessions.",
-      "effects": "Make Temptation rolls when offered wealth. Must pursue profitable opportunities even when risky.",
-      "requirements": "None",
-      "incompatible_with": ["Generous"],
-      "notes": "Drives character toward mercenary behavior"
-    },
-    {
-      "name": "Hard of Hearing",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Your hearing is significantly impaired.",
-      "effects": "Subtract 3 from all hearing-based rolls. Others must speak loudly for you to understand clearly.",
-      "requirements": "None",
-      "incompatible_with": ["Sharp Ears"],
-      "notes": "Social and practical complications"
-    },
-    {
-      "name": "Hatred",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have an irrational hatred for a specific group or type of person.",
-      "effects": "Make Self-Control rolls to avoid acting on your hatred. Subtract 3 from social rolls with the hated group.",
-      "requirements": "Must define target of hatred",
-      "incompatible_with": ["None specific"],
-      "notes": "Creates roleplay challenges and conflicts"
-    },
-    {
-      "name": "Lame",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have difficulty walking due to injury or deformity.",
-      "effects": "Your movement rate is halved. Subtract 6 from Athletics rolls involving running or jumping.",
-      "requirements": "None",
-      "incompatible_with": ["Athletic abilities"],
-      "notes": "Significant mobility limitation"
-    },
-    {
-      "name": "Lecherous",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are driven by sexual desire and have difficulty controlling yourself.",
-      "effects": "Make Temptation rolls when encountering attractive members of your preferred gender. May act inappropriately.",
-      "requirements": "None",
-      "incompatible_with": ["Chaste"],
-      "notes": "Creates social complications and moral challenges"
-    },
-    {
-      "name": "Low Self-Esteem",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You lack confidence in your abilities and worth.",
-      "effects": "Confidence points only add +1 to totals (instead of +3). Tend to defer to others and doubt yourself.",
-      "requirements": "None",
-      "incompatible_with": ["Self-Confident"],
-      "notes": "Limits effectiveness of Confidence"
-    },
-    {
-      "name": "Mute",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You cannot speak.",
-      "effects": "Cannot cast spells that require words (most formulaic magic). Communication limited to writing and gestures.",
-      "requirements": "None",
-      "incompatible_with": ["Eloquent"],
-      "notes": "Major limitation for spellcasters"
-    },
-    {
-      "name": "Oath of Fealty",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are bound by oath to serve a lord or institution.",
-      "effects": "You must obey your liege's commands and may be called upon for service. Disobedience brings serious consequences.",
-      "requirements": "Must define to whom and why",
-      "incompatible_with": ["None specific"],
-      "notes": "Limits character freedom but provides connections"
-    },
-    {
-      "name": "Obese",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are significantly overweight.",
-      "effects": "Subtract 3 from Athletics and other physical rolls. Increased food requirements and social prejudice.",
-      "requirements": "None",
-      "incompatible_with": ["None specific"],
-      "notes": "Physical and social limitations"
-    },
-    {
-      "name": "One-Armed",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You have lost the use of one arm.",
-      "effects": "Cannot perform two-handed activities. Subtract 6 from appropriate physical rolls. Cannot use two-handed weapons or shields.",
-      "requirements": "None",
-      "incompatible_with": ["Ambidextrous"],
-      "notes": "Severe physical limitation affecting many activities"
-    },
-    {
-      "name": "One-Eyed",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have lost the sight in one eye.",
-      "effects": "Subtract 3 from vision-based rolls and ranged combat. No depth perception for detailed work.",
-      "requirements": "None",
-      "incompatible_with": ["Keen Vision"],
-      "notes": "Affects combat and perception"
-    },
-    {
-      "name": "Overconfident",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You consistently overestimate your abilities and chances of success.",
-      "effects": "Make Self-Control rolls to avoid taking foolish risks. Tend to underestimate dangers and opponents.",
-      "requirements": "None",
-      "incompatible_with": ["Cautious"],
-      "notes": "Leads to dangerous situations"
-    },
-    {
-      "name": "Painful Wound",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You suffer from an old injury that causes ongoing pain.",
-      "effects": "Subtract 1 from all totals due to constant pain. The wound cannot be fully healed by normal means.",
-      "requirements": "Must define the wound",
-      "incompatible_with": ["None specific"],
-      "notes": "Constant minor penalty to all actions"
-    },
-    {
-      "name": "Poor",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have very little money or possessions.",
-      "effects": "Reduce Wealth level by 3 points. Limited equipment and lifestyle options.",
-      "requirements": "None",
-      "incompatible_with": ["Wealthy"],
-      "notes": "Limits equipment and lifestyle choices"
-    },
-    {
-      "name": "Proud",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have excessive pride and difficulty admitting mistakes or accepting help.",
-      "effects": "Make Pride rolls to accept help, admit error, or back down from challenges to your reputation.",
-      "requirements": "None",
-      "incompatible_with": ["Humble"],
-      "notes": "Creates social friction and poor decisions"
-    },
-    {
-      "name": "Reckless",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You act without thinking and take unnecessary risks.",
-      "effects": "Make Self-Control rolls to avoid acting impulsively in dangerous situations.",
-      "requirements": "None",
-      "incompatible_with": ["Cautious"],
-      "notes": "Leads to dangerous complications"
-    },
-    {
-      "name": "Short Attention Span",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have difficulty concentrating on tasks for extended periods.",
-      "effects": "Subtract 3 from extended study totals. Difficulty maintaining Concentration duration spells.",
-      "requirements": "None",
-      "incompatible_with": ["Concentration abilities"],
-      "notes": "Affects learning and magical concentration"
-    },
-    {
-      "name": "Small Frame",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are significantly smaller than normal for your kind.",
-      "effects": "Size -1. Subtract 3 from Strength for load-bearing. Easier to hide but reduced physical presence.",
-      "requirements": "None",
-      "incompatible_with": ["Large", "Giant Blood"],
-      "notes": "Physical limitations but some advantages"
-    },
-    {
-      "name": "Ugly Appearance",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are notably unattractive.",
-      "effects": "Subtract 3 from social rolls where appearance matters. May face prejudice and mockery.",
-      "requirements": "None",
-      "incompatible_with": ["Venus' Blessing"],
-      "notes": "Social disadvantages in many situations"
-    },
-    {
-      "name": "Warped",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Exposure to raw magic has left you physically or mentally changed.",
-      "effects": "You have a minor supernatural quirk or physical mutation. May be unsettling to normal people.",
-      "requirements": "Must define the warping",
-      "incompatible_with": ["None specific"],
-      "notes": "Visible sign of magical exposure"
-    },
-    {
-      "name": "Weak Characteristics",
-      "type": "Major General",
-      "cost": 3,
-      "description": "One of your core characteristics is significantly below average.",
-      "effects": "Reduce one Characteristic by 3 points, possibly below normal human minimums.",
-      "requirements": "Must choose which Characteristic",
-      "incompatible_with": ["Great Characteristic with same stat"],
-      "notes": "Severe limitation in one core ability"
-    }
-  ]
-}
+  {
+    "name": "Cowardly",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are easily frightened and avoid danger.",
+    "effects": "Make a Brave roll (difficulty 9+) to face serious danger. Subtract 3 from rolls to resist fear effects.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Brave"
+    ],
+    "notes": "Limits character's heroic actions"
+  },
+  {
+    "name": "Cursed",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You suffer from supernatural bad luck.",
+    "effects": "Once per session, the storyguide may force you to reroll any successful roll, taking the worse result.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Luck",
+      "Great Luck"
+    ],
+    "notes": "Creates dramatic complications"
+  },
+  {
+    "name": "Dark Secret",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You harbor a secret that would cause serious problems if revealed.",
+    "effects": "You have done something shameful or illegal. If discovered, face serious social or legal consequences.",
+    "requirements": "Must define the secret",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Provides ongoing story tension"
+  },
+  {
+    "name": "Deaf",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You cannot hear sounds.",
+    "effects": "Complete hearing loss. Cannot learn languages normally, automatic failure on hearing-based rolls.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Sharp Ears"
+    ],
+    "notes": "Major disability requiring adaptation"
+  },
+  {
+    "name": "Diabolic Past",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You have dealings with demons in your history.",
+    "effects": "Demons know you and may seek you out. You are more susceptible to Infernal corruption.",
+    "requirements": "Must define the past involvement",
+    "incompatible_with": [
+      "True Faith"
+    ],
+    "notes": "Creates ongoing supernatural threats"
+  },
+  {
+    "name": "Enemies",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Someone or some group actively opposes you.",
+    "effects": "You have enemies who will periodically cause problems. They actively work against your interests.",
+    "requirements": "Must define who and why",
+    "incompatible_with": [
+      "Social Contacts with same group"
+    ],
+    "notes": "Provides regular antagonists"
+  },
+  {
+    "name": "Fragile Constitution",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You tire easily and recover slowly from exertion.",
+    "effects": "Subtract 3 from rolls to resist fatigue. Take an extra Fatigue level from strenuous activity.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Reserves of Strength"
+    ],
+    "notes": "Limits physical capabilities"
+  },
+  {
+    "name": "Greedy",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have an excessive desire for wealth and possessions.",
+    "effects": "Make Temptation rolls when offered wealth. Must pursue profitable opportunities even when risky.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Generous"
+    ],
+    "notes": "Drives character toward mercenary behavior"
+  },
+  {
+    "name": "Hard of Hearing",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Your hearing is significantly impaired.",
+    "effects": "Subtract 3 from all hearing-based rolls. Others must speak loudly for you to understand clearly.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Sharp Ears"
+    ],
+    "notes": "Social and practical complications"
+  },
+  {
+    "name": "Hatred",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have an irrational hatred for a specific group or type of person.",
+    "effects": "Make Self-Control rolls to avoid acting on your hatred. Subtract 3 from social rolls with the hated group.",
+    "requirements": "Must define target of hatred",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Creates roleplay challenges and conflicts"
+  },
+  {
+    "name": "Lame",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have difficulty walking due to injury or deformity.",
+    "effects": "Your movement rate is halved. Subtract 6 from Athletics rolls involving running or jumping.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Athletic abilities"
+    ],
+    "notes": "Significant mobility limitation"
+  },
+  {
+    "name": "Lecherous",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are driven by sexual desire and have difficulty controlling yourself.",
+    "effects": "Make Temptation rolls when encountering attractive members of your preferred gender. May act inappropriately.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Chaste"
+    ],
+    "notes": "Creates social complications and moral challenges"
+  },
+  {
+    "name": "Low Self-Esteem",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You lack confidence in your abilities and worth.",
+    "effects": "Confidence points only add +1 to totals (instead of +3). Tend to defer to others and doubt yourself.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Self-Confident"
+    ],
+    "notes": "Limits effectiveness of Confidence"
+  },
+  {
+    "name": "Mute",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You cannot speak.",
+    "effects": "Cannot cast spells that require words (most formulaic magic). Communication limited to writing and gestures.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Eloquent"
+    ],
+    "notes": "Major limitation for spellcasters"
+  },
+  {
+    "name": "Oath of Fealty",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are bound by oath to serve a lord or institution.",
+    "effects": "You must obey your liege's commands and may be called upon for service. Disobedience brings serious consequences.",
+    "requirements": "Must define to whom and why",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Limits character freedom but provides connections"
+  },
+  {
+    "name": "Obese",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are significantly overweight.",
+    "effects": "Subtract 3 from Athletics and other physical rolls. Increased food requirements and social prejudice.",
+    "requirements": "None",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Physical and social limitations"
+  },
+  {
+    "name": "One-Armed",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You have lost the use of one arm.",
+    "effects": "Cannot perform two-handed activities. Subtract 6 from appropriate physical rolls. Cannot use two-handed weapons or shields.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Ambidextrous"
+    ],
+    "notes": "Severe physical limitation affecting many activities"
+  },
+  {
+    "name": "One-Eyed",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have lost the sight in one eye.",
+    "effects": "Subtract 3 from vision-based rolls and ranged combat. No depth perception for detailed work.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Keen Vision"
+    ],
+    "notes": "Affects combat and perception"
+  },
+  {
+    "name": "Overconfident",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You consistently overestimate your abilities and chances of success.",
+    "effects": "Make Self-Control rolls to avoid taking foolish risks. Tend to underestimate dangers and opponents.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Cautious"
+    ],
+    "notes": "Leads to dangerous situations"
+  },
+  {
+    "name": "Painful Wound",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You suffer from an old injury that causes ongoing pain.",
+    "effects": "Subtract 1 from all totals due to constant pain. The wound cannot be fully healed by normal means.",
+    "requirements": "Must define the wound",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Constant minor penalty to all actions"
+  },
+  {
+    "name": "Poor",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have very little money or possessions.",
+    "effects": "Reduce Wealth level by 3 points. Limited equipment and lifestyle options.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Wealthy"
+    ],
+    "notes": "Limits equipment and lifestyle choices"
+  },
+  {
+    "name": "Proud",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have excessive pride and difficulty admitting mistakes or accepting help.",
+    "effects": "Make Pride rolls to accept help, admit error, or back down from challenges to your reputation.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Humble"
+    ],
+    "notes": "Creates social friction and poor decisions"
+  },
+  {
+    "name": "Reckless",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You act without thinking and take unnecessary risks.",
+    "effects": "Make Self-Control rolls to avoid acting impulsively in dangerous situations.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Cautious"
+    ],
+    "notes": "Leads to dangerous complications"
+  },
+  {
+    "name": "Short Attention Span",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have difficulty concentrating on tasks for extended periods.",
+    "effects": "Subtract 3 from extended study totals. Difficulty maintaining Concentration duration spells.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Concentration abilities"
+    ],
+    "notes": "Affects learning and magical concentration"
+  },
+  {
+    "name": "Small Frame",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are significantly smaller than normal for your kind.",
+    "effects": "Size -1. Subtract 3 from Strength for load-bearing. Easier to hide but reduced physical presence.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Large",
+      "Giant Blood"
+    ],
+    "notes": "Physical limitations but some advantages"
+  },
+  {
+    "name": "Ugly Appearance",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are notably unattractive.",
+    "effects": "Subtract 3 from social rolls where appearance matters. May face prejudice and mockery.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Venus' Blessing"
+    ],
+    "notes": "Social disadvantages in many situations"
+  },
+  {
+    "name": "Warped",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Exposure to raw magic has left you physically or mentally changed.",
+    "effects": "You have a minor supernatural quirk or physical mutation. May be unsettling to normal people.",
+    "requirements": "Must define the warping",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Visible sign of magical exposure"
+  },
+  {
+    "name": "Weak Characteristics",
+    "type": "Major General",
+    "cost": 3,
+    "description": "One of your core characteristics is significantly below average.",
+    "effects": "Reduce one Characteristic by 3 points, possibly below normal human minimums.",
+    "requirements": "Must choose which Characteristic",
+    "incompatible_with": [
+      "Great Characteristic with same stat"
+    ],
+    "notes": "Severe limitation in one core ability"
+  }
+]

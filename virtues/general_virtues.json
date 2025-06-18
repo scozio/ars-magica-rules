@@ -1,311 +1,363 @@
-{
-  "metadata": {
-    "title": "General Virtues",
-    "description": "Virtues available to all characters, not specifically tied to Hermetic magic",
-    "version": "1.0",
-    "source": "Ars Magica 5th Edition",
-    "last_updated": "2025-06-13"
+[
+  {
+    "name": "Acute Sense",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "One of your senses is exceptionally sharp.",
+    "effects": "Add +3 to rolls involving one specific sense (sight, hearing, smell, taste, or touch).",
+    "requirements": "Must choose which sense",
+    "incompatible_with": [
+      "Poor Sense with same sense"
+    ],
+    "notes": "Useful for awareness and investigation"
   },
-  "virtues": [
-    {
-      "name": "Acute Sense",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "One of your senses is exceptionally sharp.",
-      "effects": "Add +3 to rolls involving one specific sense (sight, hearing, smell, taste, or touch).",
-      "requirements": "Must choose which sense",
-      "incompatible_with": ["Poor Sense with same sense"],
-      "notes": "Useful for awareness and investigation"
-    },
-    {
-      "name": "Affinity with Ability",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have a natural talent for a specific Ability.",
-      "effects": "You gain experience points in the chosen Ability as if you were studying from a book with Quality equal to 5 + current score when studying from any source.",
-      "requirements": "Must choose specific Ability",
-      "incompatible_with": ["Deficiency with same Ability"],
-      "notes": "Excellent for rapid advancement in key skills"
-    },
-    {
-      "name": "Animal Companion",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have a loyal animal companion that aids you.",
-      "effects": "You have an animal companion with Intelligence +2 and some useful abilities. It is completely loyal and understands complex instructions.",
-      "requirements": "Must define the animal type",
-      "incompatible_with": ["None specific"],
-      "notes": "Provides a useful ally and story element"
-    },
-    {
-      "name": "Arcane Lore",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You know secrets about magic not normally available to your character type.",
-      "effects": "You have Magic Lore 2 and can learn magical theory. If you already have Magic Lore, add 2 to your score.",
-      "requirements": "Character must normally be unable to learn Magic Lore",
-      "incompatible_with": ["Magic Resistance"],
-      "notes": "Allows non-magi to understand magic"
-    },
-    {
-      "name": "Wealthy",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have significant material wealth and income.",
-      "effects": "Your Wealth level is increased by 3 points. You have a steady income and valuable possessions.",
-      "requirements": "None",
-      "incompatible_with": ["Poor"],
-      "notes": "Provides equipment and lifestyle advantages"
-    },
-    {
-      "name": "Independent Study", 
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You can learn effectively without teachers or books.",
-      "effects": "Add +3 to Practice totals. You can make Practice rolls for abilities you don't already have at score 1+.",
-      "requirements": "None",
-      "incompatible_with": ["Slow Learner"],
-      "notes": "Useful for self-taught characters"
-    },
-    {
-      "name": "Large",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are significantly larger than normal for your kind.",
-      "effects": "Size +1. +3 to Strength for load-bearing. +1 to damage and soak. Armor costs double.",
-      "requirements": "None",
-      "incompatible_with": ["Small Frame"],
-      "notes": "Combat advantages but equipment disadvantages"
-    },
-    {
-      "name": "Lightning Reflexes",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You react exceptionally quickly to danger and surprises.",
-      "effects": "Add +3 to Initiative rolls and +3 to rolls to avoid surprise.",
-      "requirements": "None", 
-      "incompatible_with": ["Slow Reflexes"],
-      "notes": "Excellent for combat and dangerous situations"
-    },
-    {
-      "name": "Long-Lived",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You age more slowly than normal.",
-      "effects": "Make aging rolls every 15 years instead of every 10 years. This does not affect magical aging.",
-      "requirements": "None",
-      "incompatible_with": ["Short-Lived"],
-      "notes": "Extends natural lifespan significantly"
-    },
-    {
-      "name": "Luck",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Fortunate coincidences often favor you.",
-      "effects": "Once per session, you may reroll any one die roll you make, taking the better result.",
-      "requirements": "None",
-      "incompatible_with": ["Cursed"],
-      "notes": "Versatile safety net for important rolls"
-    },
-    {
-      "name": "Perfect Balance",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have exceptional balance and coordination.",
-      "effects": "Add +6 to rolls to keep your balance. You can walk on narrow surfaces, tight ropes, etc. with ease.",
-      "requirements": "None",
-      "incompatible_with": ["Clumsy"],
-      "notes": "Useful for athletic and acrobatic activities"
-    },
-    {
-      "name": "Piercing Gaze",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Your intense gaze can unnerve others and see through deceptions.",
-      "effects": "Add +3 to Guile and Folk Ken rolls when making eye contact. Others suffer -1 to Guile rolls against you.",
-      "requirements": "None",
-      "incompatible_with": ["Shifty Eyes"],
-      "notes": "Social advantage in face-to-face interactions"
-    },
-    {
-      "name": "Puissant Ability",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have exceptional skill with one Ability.",
-      "effects": "Add +2 to one Ability score for all purposes except experience costs.",
-      "requirements": "Must choose specific Ability",
-      "incompatible_with": ["Deficiency with same Ability"],
-      "notes": "Significant boost to one important skill"
-    },
-    {
-      "name": "Rapid Convalescence",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You heal from injuries more quickly than normal.",
-      "effects": "Add +3 to rolls to recover from wounds and diseases. Healing times are halved.",
-      "requirements": "None",
-      "incompatible_with": ["Slow Recovery"],
-      "notes": "Important for survival in dangerous campaigns"
-    },
-    {
-      "name": "Reserves of Strength",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have exceptional stamina and can push yourself harder than normal.",
-      "effects": "Add +3 to rolls to resist fatigue. You can take one additional Fatigue level before becoming Winded.",
-      "requirements": "None",
-      "incompatible_with": ["Weak Constitution"],
-      "notes": "Useful for extended physical activities"
-    },
-    {
-      "name": "Second Sight",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You can see through illusions and perceive supernatural auras.",
-      "effects": "You automatically see through mundane concealment and illusions. Roll Perception + Second Sight to see supernatural effects.",
-      "requirements": "None",
-      "incompatible_with": ["None specific"],
-      "notes": "Invaluable for detecting magical threats"
-    },
-    {
-      "name": "Self-Confident",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Your confidence in your abilities allows you to achieve better results.",
-      "effects": "Add +2 to totals when spending Confidence points, instead of the normal +1 per point spent.",
-      "requirements": "None",
-      "incompatible_with": ["Low Self-Esteem"],
-      "notes": "Makes Confidence points much more effective"
-    },
-    {
-      "name": "Sharp Ears",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Your hearing is exceptionally acute.",
-      "effects": "Add +3 to all hearing-based Perception rolls. You can hear sounds that others cannot.",
-      "requirements": "None",
-      "incompatible_with": ["Hard of Hearing"],
-      "notes": "Specific version of Acute Sense for hearing"
-    },
-    {
-      "name": "Social Contacts",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have useful friends and allies in society.",
-      "effects": "You have contacts in a specific organization or social group who can provide information and minor favors.",
-      "requirements": "Must specify the group/organization",
-      "incompatible_with": ["Enemies from same group"],
-      "notes": "Provides ongoing story benefits and information"
-    },
-    {
-      "name": "Strong-Willed",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "Your force of personality helps you resist mental influence.",
-      "effects": "Add +3 to rolls to resist coercion, intimidation, and supernatural mental influence.",
-      "requirements": "None",
-      "incompatible_with": ["Weak-Willed"],
-      "notes": "Important defense against mental attacks"
-    },
-    {
-      "name": "Tough",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You can withstand physical punishment better than most.",
-      "effects": "Add +3 to Soak totals against damage. This does not stack with armor.",
-      "requirements": "None",
-      "incompatible_with": ["Fragile"],
-      "notes": "Significant survival advantage in combat"
-    },
-    {
-      "name": "Trouper",
-      "type": "Minor General", 
-      "cost": 1,
-      "description": "You work exceptionally well as part of a team.",
-      "effects": "Add +2 to totals when working as part of a group on any task. This includes combat when fighting alongside allies.",
-      "requirements": "None",
-      "incompatible_with": ["Loner"],
-      "notes": "Encourages cooperative play"
-    },
-    {
-      "name": "Venus' Blessing",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are exceptionally attractive and charming.",
-      "effects": "Add +3 to Communication and Presence totals in social situations where your appearance matters.",
-      "requirements": "None",
-      "incompatible_with": ["Ugly Appearance"],
-      "notes": "Significant social advantages"
-    },
-    {
-      "name": "Warrior",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You are trained in combat and the arts of war.",
-      "effects": "You may learn Martial abilities (Single Weapon, Great Weapon, etc.) during character creation without a teacher.",
-      "requirements": "None",
-      "incompatible_with": ["Pacifist"],
-      "notes": "Allows access to combat abilities"
-    },
-    {
-      "name": "Well-Traveled",
-      "type": "Minor General",
-      "cost": 1,
-      "description": "You have journeyed widely and know much about the world.",
-      "effects": "You have Area Lore 2 for three different regions, and you know at least the basics of three additional languages.",
-      "requirements": "None",
-      "incompatible_with": ["Sheltered Upbringing"],
-      "notes": "Provides broad geographical and cultural knowledge"
-    },
-    {
-      "name": "Great Characteristic",
-      "type": "Major General",
-      "cost": 3,
-      "description": "One of your Characteristics is exceptionally high.",
-      "effects": "Increase one Characteristic by +3, possibly above the normal human maximum.",
-      "requirements": "Must choose which Characteristic",
-      "incompatible_with": ["Poor Characteristic with same stat"],
-      "notes": "Major boost to one core attribute"
-    },
-    {
-      "name": "Giant Blood",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You have the blood of giants in your lineage.",
-      "effects": "Size +2. +6 to Strength for load-bearing. +2 to damage and soak. Cannot wear normal armor or use normal weapons effectively.",
-      "requirements": "None",
-      "incompatible_with": ["Small Frame", "Dwarf"],
-      "notes": "Significant physical advantages but major equipment issues"
-    },
-    {
-      "name": "Great Luck",
-      "type": "Major General",
-      "cost": 3,
-      "description": "Fortune strongly favors you in dramatic situations.",
-      "effects": "Three times per session, you may reroll any die roll, taking the better result. Once per session, you may turn a botch into a simple failure.",
-      "requirements": "None",
-      "incompatible_with": ["Cursed"],
-      "notes": "Powerful protection against bad luck"
-    },
-    {
-      "name": "Legendary Characteristic",
-      "type": "Major General",
-      "cost": 3,
-      "description": "One of your Characteristics reaches legendary levels.",
-      "effects": "One Characteristic is increased to +5, well above normal human maximums.",
-      "requirements": "Must choose which Characteristic",
-      "incompatible_with": ["Poor Characteristic with same stat"],
-      "notes": "Superhuman ability in one area"
-    },
-    {
-      "name": "True Faith",
-      "type": "Major General",
-      "cost": 3,
-      "description": "You have genuine, unshakeable religious faith that grants divine protection.",
-      "effects": "You have a True Faith score that provides protection against demons and other supernatural threats. You can sense evil.",
-      "requirements": "Must have appropriate religious background",
-      "incompatible_with": ["Most supernatural Virtues"],
-      "notes": "Powerful but restrictive divine protection"
-    }
-  ]
-}
+  {
+    "name": "Affinity with Ability",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have a natural talent for a specific Ability.",
+    "effects": "You gain experience points in the chosen Ability as if you were studying from a book with Quality equal to 5 + current score when studying from any source.",
+    "requirements": "Must choose specific Ability",
+    "incompatible_with": [
+      "Deficiency with same Ability"
+    ],
+    "notes": "Excellent for rapid advancement in key skills"
+  },
+  {
+    "name": "Animal Companion",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have a loyal animal companion that aids you.",
+    "effects": "You have an animal companion with Intelligence +2 and some useful abilities. It is completely loyal and understands complex instructions.",
+    "requirements": "Must define the animal type",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Provides a useful ally and story element"
+  },
+  {
+    "name": "Arcane Lore",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You know secrets about magic not normally available to your character type.",
+    "effects": "You have Magic Lore 2 and can learn magical theory. If you already have Magic Lore, add 2 to your score.",
+    "requirements": "Character must normally be unable to learn Magic Lore",
+    "incompatible_with": [
+      "Magic Resistance"
+    ],
+    "notes": "Allows non-magi to understand magic"
+  },
+  {
+    "name": "Wealthy",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have significant material wealth and income.",
+    "effects": "Your Wealth level is increased by 3 points. You have a steady income and valuable possessions.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Poor"
+    ],
+    "notes": "Provides equipment and lifestyle advantages"
+  },
+  {
+    "name": "Independent Study",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You can learn effectively without teachers or books.",
+    "effects": "Add +3 to Practice totals. You can make Practice rolls for abilities you don't already have at score 1+.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Slow Learner"
+    ],
+    "notes": "Useful for self-taught characters"
+  },
+  {
+    "name": "Large",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are significantly larger than normal for your kind.",
+    "effects": "Size +1. +3 to Strength for load-bearing. +1 to damage and soak. Armor costs double.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Small Frame"
+    ],
+    "notes": "Combat advantages but equipment disadvantages"
+  },
+  {
+    "name": "Lightning Reflexes",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You react exceptionally quickly to danger and surprises.",
+    "effects": "Add +3 to Initiative rolls and +3 to rolls to avoid surprise.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Slow Reflexes"
+    ],
+    "notes": "Excellent for combat and dangerous situations"
+  },
+  {
+    "name": "Long-Lived",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You age more slowly than normal.",
+    "effects": "Make aging rolls every 15 years instead of every 10 years. This does not affect magical aging.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Short-Lived"
+    ],
+    "notes": "Extends natural lifespan significantly"
+  },
+  {
+    "name": "Luck",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Fortunate coincidences often favor you.",
+    "effects": "Once per session, you may reroll any one die roll you make, taking the better result.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Cursed"
+    ],
+    "notes": "Versatile safety net for important rolls"
+  },
+  {
+    "name": "Perfect Balance",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have exceptional balance and coordination.",
+    "effects": "Add +6 to rolls to keep your balance. You can walk on narrow surfaces, tight ropes, etc. with ease.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Clumsy"
+    ],
+    "notes": "Useful for athletic and acrobatic activities"
+  },
+  {
+    "name": "Piercing Gaze",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Your intense gaze can unnerve others and see through deceptions.",
+    "effects": "Add +3 to Guile and Folk Ken rolls when making eye contact. Others suffer -1 to Guile rolls against you.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Shifty Eyes"
+    ],
+    "notes": "Social advantage in face-to-face interactions"
+  },
+  {
+    "name": "Puissant Ability",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have exceptional skill with one Ability.",
+    "effects": "Add +2 to one Ability score for all purposes except experience costs.",
+    "requirements": "Must choose specific Ability",
+    "incompatible_with": [
+      "Deficiency with same Ability"
+    ],
+    "notes": "Significant boost to one important skill"
+  },
+  {
+    "name": "Rapid Convalescence",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You heal from injuries more quickly than normal.",
+    "effects": "Add +3 to rolls to recover from wounds and diseases. Healing times are halved.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Slow Recovery"
+    ],
+    "notes": "Important for survival in dangerous campaigns"
+  },
+  {
+    "name": "Reserves of Strength",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have exceptional stamina and can push yourself harder than normal.",
+    "effects": "Add +3 to rolls to resist fatigue. You can take one additional Fatigue level before becoming Winded.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Weak Constitution"
+    ],
+    "notes": "Useful for extended physical activities"
+  },
+  {
+    "name": "Second Sight",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You can see through illusions and perceive supernatural auras.",
+    "effects": "You automatically see through mundane concealment and illusions. Roll Perception + Second Sight to see supernatural effects.",
+    "requirements": "None",
+    "incompatible_with": [
+      "None specific"
+    ],
+    "notes": "Invaluable for detecting magical threats"
+  },
+  {
+    "name": "Self-Confident",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Your confidence in your abilities allows you to achieve better results.",
+    "effects": "Add +2 to totals when spending Confidence points, instead of the normal +1 per point spent.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Low Self-Esteem"
+    ],
+    "notes": "Makes Confidence points much more effective"
+  },
+  {
+    "name": "Sharp Ears",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Your hearing is exceptionally acute.",
+    "effects": "Add +3 to all hearing-based Perception rolls. You can hear sounds that others cannot.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Hard of Hearing"
+    ],
+    "notes": "Specific version of Acute Sense for hearing"
+  },
+  {
+    "name": "Social Contacts",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have useful friends and allies in society.",
+    "effects": "You have contacts in a specific organization or social group who can provide information and minor favors.",
+    "requirements": "Must specify the group/organization",
+    "incompatible_with": [
+      "Enemies from same group"
+    ],
+    "notes": "Provides ongoing story benefits and information"
+  },
+  {
+    "name": "Strong-Willed",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "Your force of personality helps you resist mental influence.",
+    "effects": "Add +3 to rolls to resist coercion, intimidation, and supernatural mental influence.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Weak-Willed"
+    ],
+    "notes": "Important defense against mental attacks"
+  },
+  {
+    "name": "Tough",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You can withstand physical punishment better than most.",
+    "effects": "Add +3 to Soak totals against damage. This does not stack with armor.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Fragile"
+    ],
+    "notes": "Significant survival advantage in combat"
+  },
+  {
+    "name": "Trouper",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You work exceptionally well as part of a team.",
+    "effects": "Add +2 to totals when working as part of a group on any task. This includes combat when fighting alongside allies.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Loner"
+    ],
+    "notes": "Encourages cooperative play"
+  },
+  {
+    "name": "Venus' Blessing",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are exceptionally attractive and charming.",
+    "effects": "Add +3 to Communication and Presence totals in social situations where your appearance matters.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Ugly Appearance"
+    ],
+    "notes": "Significant social advantages"
+  },
+  {
+    "name": "Warrior",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You are trained in combat and the arts of war.",
+    "effects": "You may learn Martial abilities (Single Weapon, Great Weapon, etc.) during character creation without a teacher.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Pacifist"
+    ],
+    "notes": "Allows access to combat abilities"
+  },
+  {
+    "name": "Well-Traveled",
+    "type": "Minor General",
+    "cost": 1,
+    "description": "You have journeyed widely and know much about the world.",
+    "effects": "You have Area Lore 2 for three different regions, and you know at least the basics of three additional languages.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Sheltered Upbringing"
+    ],
+    "notes": "Provides broad geographical and cultural knowledge"
+  },
+  {
+    "name": "Great Characteristic",
+    "type": "Major General",
+    "cost": 3,
+    "description": "One of your Characteristics is exceptionally high.",
+    "effects": "Increase one Characteristic by +3, possibly above the normal human maximum.",
+    "requirements": "Must choose which Characteristic",
+    "incompatible_with": [
+      "Poor Characteristic with same stat"
+    ],
+    "notes": "Major boost to one core attribute"
+  },
+  {
+    "name": "Giant Blood",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You have the blood of giants in your lineage.",
+    "effects": "Size +2. +6 to Strength for load-bearing. +2 to damage and soak. Cannot wear normal armor or use normal weapons effectively.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Small Frame",
+      "Dwarf"
+    ],
+    "notes": "Significant physical advantages but major equipment issues"
+  },
+  {
+    "name": "Great Luck",
+    "type": "Major General",
+    "cost": 3,
+    "description": "Fortune strongly favors you in dramatic situations.",
+    "effects": "Three times per session, you may reroll any die roll, taking the better result. Once per session, you may turn a botch into a simple failure.",
+    "requirements": "None",
+    "incompatible_with": [
+      "Cursed"
+    ],
+    "notes": "Powerful protection against bad luck"
+  },
+  {
+    "name": "Legendary Characteristic",
+    "type": "Major General",
+    "cost": 3,
+    "description": "One of your Characteristics reaches legendary levels.",
+    "effects": "One Characteristic is increased to +5, well above normal human maximums.",
+    "requirements": "Must choose which Characteristic",
+    "incompatible_with": [
+      "Poor Characteristic with same stat"
+    ],
+    "notes": "Superhuman ability in one area"
+  },
+  {
+    "name": "True Faith",
+    "type": "Major General",
+    "cost": 3,
+    "description": "You have genuine, unshakeable religious faith that grants divine protection.",
+    "effects": "You have a True Faith score that provides protection against demons and other supernatural threats. You can sense evil.",
+    "requirements": "Must have appropriate religious background",
+    "incompatible_with": [
+      "Most supernatural Virtues"
+    ],
+    "notes": "Powerful but restrictive divine protection"
+  }
+]

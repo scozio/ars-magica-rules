@@ -1,0 +1,14 @@
+{
+  "title": "Core Game Mechanics",
+  "description": "Essential rules and mechanics for Ars Magica 5th Edition",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "core-rules_1.json",
+    "extracted_array": "mechanics",
+    "item_count": 15,
+    "extracted_on": "2025-06-18T17:08:46.438735",
+    "script_version": "1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Houses of Hermes",
+  "description": "Complete listing of all 13 Houses of Hermes with their philosophies, benefits, and characteristics",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "houses-of-hermes.json",
+    "extracted_array": "houses",
+    "item_count": 13,
+    "extracted_on": "2025-06-18T17:08:46.516546",
+    "script_version": "1.0"
+  }
+}

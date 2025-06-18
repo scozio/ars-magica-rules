@@ -1,0 +1,14 @@
+{
+  "title": "Hermetic Virtues",
+  "description": "Virtues specifically related to Hermetic magic and the Order of Hermes",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "hermetic_virtues.json",
+    "extracted_array": "virtues",
+    "item_count": 42,
+    "extracted_on": "2025-06-18T17:08:46.519269",
+    "script_version": "1.0"
+  }
+}

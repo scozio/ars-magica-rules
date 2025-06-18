@@ -1,0 +1,14 @@
+{
+  "title": "General Virtues",
+  "description": "Virtues available to all characters, not specifically tied to Hermetic magic",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "general_virtues.json",
+    "extracted_array": "virtues",
+    "item_count": 30,
+    "extracted_on": "2025-06-18T17:08:46.469117",
+    "script_version": "1.0"
+  }
+}

@@ -1,185 +1,260 @@
-{
-  "metadata": {
-    "title": "Arcane Abilities",
-    "description": "Supernatural abilities related to magic and the supernatural",
-    "version": "1.0",
-    "source": "Ars Magica 5th Edition",
-    "last_updated": "2025-06-13"
+[
+  {
+    "name": "Concentration",
+    "category": "Arcane",
+    "description": "Maintaining focus on spells and resisting distractions during magical activities.",
+    "specializations": [
+      "Spell Concentration",
+      "Lab Work",
+      "Noisy Distractions",
+      "Pain",
+      "Combat",
+      "Meditation"
+    ],
+    "uses": [
+      "Maintaining Concentration duration spells",
+      "Avoiding distractions during lab work",
+      "Focusing despite injuries or stress",
+      "Meditating for extended periods",
+      "Maintaining magical effects in combat"
+    ],
+    "advancement": "Practice (meditation), Training (from magi), Study (concentration techniques)"
   },
-  "abilities": [
-    {
-      "name": "Concentration",
-      "category": "Arcane",
-      "description": "Maintaining focus on spells and resisting distractions during magical activities.",
-      "specializations": ["Spell Concentration", "Lab Work", "Noisy Distractions", "Pain", "Combat", "Meditation"],
-      "uses": [
-        "Maintaining Concentration duration spells",
-        "Avoiding distractions during lab work",
-        "Focusing despite injuries or stress",
-        "Meditating for extended periods",
-        "Maintaining magical effects in combat"
-      ],
-      "advancement": "Practice (meditation), Training (from magi), Study (concentration techniques)"
-    },
-    {
-      "name": "Enigmatic Wisdom",
-      "category": "Arcane",
-      "description": "Understanding hidden meanings, symbols, and mystical connections in reality.",
-      "specializations": ["Symbolic Interpretation", "Hidden Meanings", "Mystical Insight", "Paradox Resolution", "Cosmic Understanding", "Twilight Comprehension"],
-      "uses": [
-        "Interpreting mystical symbols and signs",
-        "Understanding cryptic prophecies",
-        "Gaining insight into magical mysteries",
-        "Comprehending Twilight experiences",
-        "Solving supernatural puzzles"
-      ],
-      "advancement": "Study (mystical texts), Training (from Criamon magi), Practice (contemplation)",
-      "notes": "Primarily associated with House Criamon"
-    },
-    {
-      "name": "Faerie Lore",
-      "category": "Arcane",
-      "description": "Knowledge of faeries, their customs, powers, and the Faerie realm.",
-      "specializations": ["Faerie Courts", "Faerie Magic", "Faerie Customs", "Glamour", "Seasonal Courts", "Specific Faerie Types"],
-      "uses": [
-        "Understanding faerie behavior and motivations",
-        "Recognizing different types of faeries",
-        "Knowing how to bargain with faeries safely",
-        "Understanding faerie magic and glamour",
-        "Navigating faerie politics and customs"
-      ],
-      "advancement": "Study (faerie lore texts), Training (from those experienced with faeries), Exposure (faerie encounters)"
-    },
-    {
-      "name": "Finesse",
-      "category": "Arcane",
-      "description": "Precise control over magical effects and spells requiring delicate manipulation.",
-      "specializations": ["Targeting", "Delicate Manipulation", "Rego Magic", "Precision", "Multiple Targets", "Fine Control"],
-      "uses": [
-        "Targeting spells precisely in combat",
-        "Performing delicate magical manipulations",
-        "Controlling multiple magical effects",
-        "Threading spells through tight spaces",
-        "Avoiding collateral damage with magic"
-      ],
-      "advancement": "Practice (precise spellcasting), Training (from skilled magi), Study (magical control techniques)"
-    },
-    {
-      "name": "Folk Ken",
-      "category": "Arcane",
-      "description": "Understanding supernatural creatures and their motivations.",
-      "specializations": ["Faeries", "Demons", "Angels", "Ghosts", "Magical Beasts", "Supernatural Politics"],
-      "uses": [
-        "Reading the intentions of supernatural beings",
-        "Understanding supernatural social structures",
-        "Predicting supernatural behavior",
-        "Knowing appropriate protocols for supernatural encounters",
-        "Detecting supernatural influence on mortals"
-      ],
-      "advancement": "Practice (supernatural encounters), Training (from experienced individuals), Exposure (supernatural environments)"
-    },
-    {
-      "name": "Infernal Lore",
-      "category": "Arcane",
-      "description": "Knowledge of demons, Hell, and infernal powers.",
-      "specializations": ["Demonic Hierarchies", "Demonic Powers", "Infernal Magic", "Possession", "Demonic Contracts", "Hell's Geography"],
-      "uses": [
-        "Identifying different types of demons",
-        "Understanding demonic motivations and tactics",
-        "Recognizing signs of demonic influence",
-        "Knowing methods of demonic banishment",
-        "Understanding infernal magic"
-      ],
-      "advancement": "Study (forbidden texts), Training (from those who have encountered demons), Exposure (infernal encounters)",
-      "notes": "Dangerous knowledge that may corrupt the soul"
-    },
-    {
-      "name": "Magic Lore",
-      "category": "Arcane",
-      "description": "General knowledge about magic, magical creatures, and supernatural phenomena.",
-      "specializations": ["Magical Creatures", "Magical Items", "Supernatural Auras", "Hedge Magic", "Magical History", "Vis"],
-      "uses": [
-        "Identifying magical creatures and their abilities",
-        "Recognizing magical items and their properties",
-        "Understanding different types of magic",
-        "Knowing magical history and legends",
-        "Identifying types of vis"
-      ],
-      "advancement": "Study (magical texts), Training (from magical practitioners), Exposure (magical environments)"
-    },
-    {
-      "name": "Magic Theory",
-      "category": "Arcane",
-      "description": "Understanding the principles and theory behind Hermetic magic.",
-      "specializations": ["Spell Design", "Lab Safety", "Enchantment", "Vis Use", "Original Research", "Teaching Magic"],
-      "uses": [
-        "Designing new spells in the laboratory",
-        "Understanding how magic works",
-        "Teaching magic to apprentices",
-        "Creating magical items safely",
-        "Analyzing existing spells and effects"
-      ],
-      "advancement": "Study (magical theory texts), Training (from skilled magi), Practice (laboratory work)",
-      "notes": "Essential for all serious magical research and advancement"
-    },
-    {
-      "name": "Parma Magica",
-      "category": "Arcane",
-      "description": "The signature defensive magic of the Order of Hermes.",
-      "specializations": ["Fast Casting", "Area Protection", "Specific Threats", "Teaching", "Boosting", "Integration"],
-      "uses": [
-        "Protecting against hostile magic",
-        "Extending protection to others",
-        "Resisting supernatural effects",
-        "Maintaining protection while casting",
-        "Teaching Parma Magica to apprentices"
-      ],
-      "advancement": "Training (from Hermetic magi), Practice (using Parma Magica), Study (advanced techniques)",
-      "notes": "Secret of the Order - teaching to non-Hermetics is forbidden"
-    },
-    {
-      "name": "Penetration",
-      "category": "Arcane",
-      "description": "Forcing magic through magical resistance and supernatural defenses.",
-      "specializations": ["Spell Penetration", "Item Penetration", "Specific Defenses", "Fast Casting", "Sympathetic Connections", "Arcane Connections"],
-      "uses": [
-        "Penetrating Parma Magica and other magical defenses",
-        "Affecting targets with natural magic resistance",
-        "Enhancing magical item effectiveness",
-        "Using sympathetic connections to boost penetration",
-        "Overcoming supernatural immunities"
-      ],
-      "advancement": "Practice (casting against resistance), Training (from combat magi), Study (penetration techniques)"
-    },
-    {
-      "name": "Second Sight",
-      "category": "Arcane",
-      "description": "The supernatural ability to see through illusions and perceive the invisible.",
-      "specializations": ["Invisibility", "Illusions", "Spirits", "Auras", "Disguises", "Supernatural Beings"],
-      "uses": [
-        "Seeing through magical invisibility",
-        "Detecting illusions and glamours",
-        "Perceiving ghosts and spirits",
-        "Seeing magical auras and effects",
-        "Recognizing supernatural beings in disguise"
-      ],
-      "advancement": "Practice (using Second Sight), Training (from those with the gift), Exposure (supernatural encounters)",
-      "notes": "Supernatural ability - requires the Second Sight Virtue"
-    },
-    {
-      "name": "Sense Holiness and Unholiness",
-      "category": "Arcane",
-      "description": "Detecting the presence of divine and infernal auras and influences.",
-      "specializations": ["Divine Auras", "Infernal Auras", "Holy Relics", "Cursed Objects", "Blessed Individuals", "Demonic Presence"],
-      "uses": [
-        "Detecting divine and infernal auras",
-        "Recognizing blessed or cursed objects",
-        "Sensing the presence of angels or demons",
-        "Identifying holy or unholy ground",
-        "Detecting divine or infernal magic"
-      ],
-      "advancement": "Practice (using the ability), Training (from clergy), Exposure (divine/infernal encounters)",
-      "notes": "Supernatural ability - requires appropriate Virtue"
-    }
-  ]
-}
+  {
+    "name": "Enigmatic Wisdom",
+    "category": "Arcane",
+    "description": "Understanding hidden meanings, symbols, and mystical connections in reality.",
+    "specializations": [
+      "Symbolic Interpretation",
+      "Hidden Meanings",
+      "Mystical Insight",
+      "Paradox Resolution",
+      "Cosmic Understanding",
+      "Twilight Comprehension"
+    ],
+    "uses": [
+      "Interpreting mystical symbols and signs",
+      "Understanding cryptic prophecies",
+      "Gaining insight into magical mysteries",
+      "Comprehending Twilight experiences",
+      "Solving supernatural puzzles"
+    ],
+    "advancement": "Study (mystical texts), Training (from Criamon magi), Practice (contemplation)",
+    "notes": "Primarily associated with House Criamon"
+  },
+  {
+    "name": "Faerie Lore",
+    "category": "Arcane",
+    "description": "Knowledge of faeries, their customs, powers, and the Faerie realm.",
+    "specializations": [
+      "Faerie Courts",
+      "Faerie Magic",
+      "Faerie Customs",
+      "Glamour",
+      "Seasonal Courts",
+      "Specific Faerie Types"
+    ],
+    "uses": [
+      "Understanding faerie behavior and motivations",
+      "Recognizing different types of faeries",
+      "Knowing how to bargain with faeries safely",
+      "Understanding faerie magic and glamour",
+      "Navigating faerie politics and customs"
+    ],
+    "advancement": "Study (faerie lore texts), Training (from those experienced with faeries), Exposure (faerie encounters)"
+  },
+  {
+    "name": "Finesse",
+    "category": "Arcane",
+    "description": "Precise control over magical effects and spells requiring delicate manipulation.",
+    "specializations": [
+      "Targeting",
+      "Delicate Manipulation",
+      "Rego Magic",
+      "Precision",
+      "Multiple Targets",
+      "Fine Control"
+    ],
+    "uses": [
+      "Targeting spells precisely in combat",
+      "Performing delicate magical manipulations",
+      "Controlling multiple magical effects",
+      "Threading spells through tight spaces",
+      "Avoiding collateral damage with magic"
+    ],
+    "advancement": "Practice (precise spellcasting), Training (from skilled magi), Study (magical control techniques)"
+  },
+  {
+    "name": "Folk Ken",
+    "category": "Arcane",
+    "description": "Understanding supernatural creatures and their motivations.",
+    "specializations": [
+      "Faeries",
+      "Demons",
+      "Angels",
+      "Ghosts",
+      "Magical Beasts",
+      "Supernatural Politics"
+    ],
+    "uses": [
+      "Reading the intentions of supernatural beings",
+      "Understanding supernatural social structures",
+      "Predicting supernatural behavior",
+      "Knowing appropriate protocols for supernatural encounters",
+      "Detecting supernatural influence on mortals"
+    ],
+    "advancement": "Practice (supernatural encounters), Training (from experienced individuals), Exposure (supernatural environments)"
+  },
+  {
+    "name": "Infernal Lore",
+    "category": "Arcane",
+    "description": "Knowledge of demons, Hell, and infernal powers.",
+    "specializations": [
+      "Demonic Hierarchies",
+      "Demonic Powers",
+      "Infernal Magic",
+      "Possession",
+      "Demonic Contracts",
+      "Hell's Geography"
+    ],
+    "uses": [
+      "Identifying different types of demons",
+      "Understanding demonic motivations and tactics",
+      "Recognizing signs of demonic influence",
+      "Knowing methods of demonic banishment",
+      "Understanding infernal magic"
+    ],
+    "advancement": "Study (forbidden texts), Training (from those who have encountered demons), Exposure (infernal encounters)",
+    "notes": "Dangerous knowledge that may corrupt the soul"
+  },
+  {
+    "name": "Magic Lore",
+    "category": "Arcane",
+    "description": "General knowledge about magic, magical creatures, and supernatural phenomena.",
+    "specializations": [
+      "Magical Creatures",
+      "Magical Items",
+      "Supernatural Auras",
+      "Hedge Magic",
+      "Magical History",
+      "Vis"
+    ],
+    "uses": [
+      "Identifying magical creatures and their abilities",
+      "Recognizing magical items and their properties",
+      "Understanding different types of magic",
+      "Knowing magical history and legends",
+      "Identifying types of vis"
+    ],
+    "advancement": "Study (magical texts), Training (from magical practitioners), Exposure (magical environments)"
+  },
+  {
+    "name": "Magic Theory",
+    "category": "Arcane",
+    "description": "Understanding the principles and theory behind Hermetic magic.",
+    "specializations": [
+      "Spell Design",
+      "Lab Safety",
+      "Enchantment",
+      "Vis Use",
+      "Original Research",
+      "Teaching Magic"
+    ],
+    "uses": [
+      "Designing new spells in the laboratory",
+      "Understanding how magic works",
+      "Teaching magic to apprentices",
+      "Creating magical items safely",
+      "Analyzing existing spells and effects"
+    ],
+    "advancement": "Study (magical theory texts), Training (from skilled magi), Practice (laboratory work)",
+    "notes": "Essential for all serious magical research and advancement"
+  },
+  {
+    "name": "Parma Magica",
+    "category": "Arcane",
+    "description": "The signature defensive magic of the Order of Hermes.",
+    "specializations": [
+      "Fast Casting",
+      "Area Protection",
+      "Specific Threats",
+      "Teaching",
+      "Boosting",
+      "Integration"
+    ],
+    "uses": [
+      "Protecting against hostile magic",
+      "Extending protection to others",
+      "Resisting supernatural effects",
+      "Maintaining protection while casting",
+      "Teaching Parma Magica to apprentices"
+    ],
+    "advancement": "Training (from Hermetic magi), Practice (using Parma Magica), Study (advanced techniques)",
+    "notes": "Secret of the Order - teaching to non-Hermetics is forbidden"
+  },
+  {
+    "name": "Penetration",
+    "category": "Arcane",
+    "description": "Forcing magic through magical resistance and supernatural defenses.",
+    "specializations": [
+      "Spell Penetration",
+      "Item Penetration",
+      "Specific Defenses",
+      "Fast Casting",
+      "Sympathetic Connections",
+      "Arcane Connections"
+    ],
+    "uses": [
+      "Penetrating Parma Magica and other magical defenses",
+      "Affecting targets with natural magic resistance",
+      "Enhancing magical item effectiveness",
+      "Using sympathetic connections to boost penetration",
+      "Overcoming supernatural immunities"
+    ],
+    "advancement": "Practice (casting against resistance), Training (from combat magi), Study (penetration techniques)"
+  },
+  {
+    "name": "Second Sight",
+    "category": "Arcane",
+    "description": "The supernatural ability to see through illusions and perceive the invisible.",
+    "specializations": [
+      "Invisibility",
+      "Illusions",
+      "Spirits",
+      "Auras",
+      "Disguises",
+      "Supernatural Beings"
+    ],
+    "uses": [
+      "Seeing through magical invisibility",
+      "Detecting illusions and glamours",
+      "Perceiving ghosts and spirits",
+      "Seeing magical auras and effects",
+      "Recognizing supernatural beings in disguise"
+    ],
+    "advancement": "Practice (using Second Sight), Training (from those with the gift), Exposure (supernatural encounters)",
+    "notes": "Supernatural ability - requires the Second Sight Virtue"
+  },
+  {
+    "name": "Sense Holiness and Unholiness",
+    "category": "Arcane",
+    "description": "Detecting the presence of divine and infernal auras and influences.",
+    "specializations": [
+      "Divine Auras",
+      "Infernal Auras",
+      "Holy Relics",
+      "Cursed Objects",
+      "Blessed Individuals",
+      "Demonic Presence"
+    ],
+    "uses": [
+      "Detecting divine and infernal auras",
+      "Recognizing blessed or cursed objects",
+      "Sensing the presence of angels or demons",
+      "Identifying holy or unholy ground",
+      "Detecting divine or infernal magic"
+    ],
+    "advancement": "Practice (using the ability), Training (from clergy), Exposure (divine/infernal encounters)",
+    "notes": "Supernatural ability - requires appropriate Virtue"
+  }
+]
