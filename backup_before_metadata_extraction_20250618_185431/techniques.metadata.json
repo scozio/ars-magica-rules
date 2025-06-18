@@ -1,0 +1,14 @@
+{
+  "title": "Hermetic Arts - Techniques",
+  "description": "The five Hermetic Techniques that define how magic is performed",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "techniques.json",
+    "extracted_array": "techniques",
+    "item_count": 5,
+    "extracted_on": "2025-06-18T18:54:31.882162",
+    "script_version": "1.0"
+  }
+}

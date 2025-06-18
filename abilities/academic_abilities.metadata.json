@@ -1,0 +1,14 @@
+{
+  "title": "Academic Abilities",
+  "description": "Scholarly abilities requiring formal education or extensive study",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "academic_abilities.json",
+    "extracted_array": "abilities",
+    "item_count": 6,
+    "extracted_on": "2025-06-18T17:50:23.272480",
+    "script_version": "1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Hermetic Arts - Forms",
+  "description": "The ten Hermetic Forms that define what magic affects",
+  "version": "1.0",
+  "source": "Ars Magica 5th Edition",
+  "last_updated": "2025-06-13",
+  "extraction_info": {
+    "original_file": "forms.json",
+    "extracted_array": "forms",
+    "item_count": 10,
+    "extracted_on": "2025-06-18T17:56:58.053543",
+    "script_version": "1.0"
+  }
+}
